@@ -1,3 +1,6 @@
+.mbr-section-btn .btn {
+  border-radius: 50px !important;
+}
 body {
   font-family: DM Sans;
 }
@@ -551,9 +554,15 @@ a.text-black:focus {
 .alert-danger {
   background-color: #b1a374;
 }
+.mbr-section-btn a.btn:not(.btn-form) {
+  border-radius: 50px;
+}
 .mbr-section-btn a.btn:not(.btn-form):hover,
 .mbr-section-btn a.btn:not(.btn-form):focus {
   box-shadow: none;
+}
+.mbr-gallery-filter li a {
+  border-radius: 50px !important;
 }
 .mbr-gallery-filter li.active .btn {
   background-color: #af442a;
@@ -562,6 +571,9 @@ a.text-black:focus {
 }
 .mbr-gallery-filter li.active .btn:focus {
   box-shadow: none;
+}
+.nav-tabs .nav-link {
+  border-radius: 50px !important;
 }
 a,
 a:hover {
@@ -588,8 +600,8 @@ a:hover {
   color: #dfd9c6;
 }
 /* Scroll to top button*/
-.scrollToTop_wraper {
-  display: none;
+#scrollToTop a {
+  border-radius: 50px;
 }
 .form-control {
   font-family: 'Noto Sans', sans-serif;
@@ -606,6 +618,12 @@ blockquote {
 /* Forms */
 .mbr-form .btn {
   margin: .4rem 0;
+}
+.mbr-form .input-group-btn a.btn {
+  border-radius: 50px !important;
+}
+.mbr-form .input-group-btn button[type="submit"] {
+  border-radius: 50px !important;
 }
 .jq-selectbox li:hover,
 .jq-selectbox li.selected {
@@ -724,7 +742,7 @@ blockquote {
 }
 @media (min-width: 992px) {
   .cid-sy7NpYR41w .navbar.collapsed.opened:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
+    max-height: calc(98.5vh - 4.1rem);
   }
 }
 .cid-sy7NpYR41w .navbar.collapsed .dropdown-menu {
@@ -2098,7 +2116,7 @@ blockquote {
 }
 @media (min-width: 992px) {
   .cid-sycueUGrox .navbar.collapsed.opened:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
+    max-height: calc(98.5vh - 4.1rem);
   }
 }
 .cid-sycueUGrox .navbar.collapsed .dropdown-menu {
@@ -2837,7 +2855,7 @@ blockquote {
 }
 @media (min-width: 992px) {
   .cid-syg1hdntLE .navbar.collapsed.opened:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
+    max-height: calc(98.5vh - 4.1rem);
   }
 }
 .cid-syg1hdntLE .navbar.collapsed .dropdown-menu {
@@ -3080,7 +3098,7 @@ blockquote {
 }
 .cid-syg7eKykgi {
   padding-top: 10rem;
-  padding-bottom: 2rem;
+  padding-bottom: 0rem;
   background-color: #f5f7fd;
 }
 .cid-syg7eKykgi .video-wrapper iframe {
@@ -3096,7 +3114,7 @@ blockquote {
 }
 .cid-syg9A2WrTC {
   padding-top: 0rem;
-  padding-bottom: 2rem;
+  padding-bottom: 0rem;
   background-color: #ffffff;
 }
 .cid-syg9A2WrTC .video-wrapper iframe {
