@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "page9.html",
     "theme": {
       "name": "conferencem4",
       "title": "ConferenceM4",
@@ -62,7 +62,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 183,
+    "uniqCompNum": 196,
     "versionPublish": "5.3.5",
     "screenshot": "screenshot.png",
     "chatbutton": {},
@@ -875,7 +875,7 @@
           },
           "_name": "team1",
           "_sourceTheme": "conferencem4",
-          "_customHTML": "<section class=\"team1 conferencem4_team1\" group=\"Teams\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Card</header>\n        <input type=\"range\" inline title=\"Card Height\" name=\"cardHeight\" min=\"200\" max=\"500\" step=\"20\" value=\"300\">\n        <input type=\"range\" inline title=\"Card Count\" name=\"cardCount\" min=\"1\" max=\"8\" step=\"1\" value=\"7\">\n        <header>Social Icon</header>\n        <input type=\"color\" title=\"Border Color\" value=\"#ffffff\" name=\"borderColor\" condition=\"socialCount > 0\">\n        <input type=\"range\" inline title=\"Social Count\" name=\"socialCount\" min=\"0\" max=\"4\" step=\"1\" value=\"0\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/conference28_1920.jpg\">\n            <input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n            <input type=\"color\" title=\"Color\" value=\"#f5f7fd\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#149dcc\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row title__wrap\">\n            <div class=\"title__block\" mbr-class=\"{'col-sm-6' : showButtons, 'col-sm-12' : !showButtons}\">\n                <h3 class=\"mbr-section-subtitle mbr-semibold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">ARTIST藝術家</h3>\n                <h2 class=\"mbr-section-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">透過良善企業團隊的支持，協力整合產官學在藝術生產方面的能量，擬長期戮力於協助原住民當代藝術之國內外推廣</h2>\n            </div>\n            <div class=\"col-sm-6 buttons\" mbr-if=\"showButtons\">\n                <div class=\"mbr-section-btn\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-sm btn-primary\" href=\"#\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-arrow-next mbr-iconfont mbr-iconfont-btn\"></span></a></div>\n            </div>\n        </div>\n        <div class=\"row wrap justify-content-center\" mbr-list mbr-list-grow=\"cardCount\">\n            <div class=\"col-lg-3 col-sm-6\">\n                <div class=\"image\">\n                    <a href=\"page7.html\"><img src=\"@PROJECT_PATH@/assets/images/20190322-152807-275x334.jpg\" alt title></a>\n                    <div class=\"text__block text-white\">\n                        <p class=\"text__title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".text__title, .social__wrap\"><a href=\"page7.html\" class=\"text-white\">撒古流‧巴瓦瓦隆</a><br></p>\n                        <p class=\"text__descr mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".text__descr\">Sakuliu Pavavalung</p>\n                        <div class=\"social__wrap\" mbr-list mbr-list-grow=\"socialCount\" mbr-if=\"socialCount > 0\">\n                            <div class=\"icons\">\n                                <div class=\"border__radius\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-twitter socicon\" style=\"font-size: 20px;\"></span>\n                                </div>\n                            </div>\n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-lg-3 col-sm-6\">\n                <div class=\"image\">\n                    <a href=\"page6.html\"><img src=\"@PROJECT_PATH@/assets/images/20190322-152853-275x334.jpg\" alt title></a>\n                    <div class=\"text__block text-white\">\n                        <p class=\"text__title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".text__title, .social__wrap\"><a href=\"page6.html\" class=\"text-white\">伊誕．巴瓦瓦隆</a><br></p>\n                        <p class=\"text__descr mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".text__descr\">Etan Pavavalung</p>\n                        <div class=\"social__wrap\" mbr-list mbr-list-grow=\"socialCount\" mbr-if=\"socialCount > 0\">\n                            <div class=\"icons\">\n                                <div class=\"border__radius\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-twitter socicon\" style=\"font-size: 20px;\"></span>\n                                </div>\n                            </div>\n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-lg-3 col-sm-6\">\n                <div class=\"image\">\n                    <a href=\"page8.html\"><img src=\"@PROJECT_PATH@/assets/images/20190322-152911-275x334.jpg\" alt title></a>\n                    <div class=\"text__block text-white\">\n                        <p class=\"text__title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".text__title, .social__wrap\"><a href=\"page8.html\" class=\"text-white\">巴豪嵐．吉嵐</a><br></p>\n                        <p class=\"text__descr mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".text__descr\">Chi-Lan Pa Hao Lan</p>\n                        <div class=\"social__wrap\" mbr-list mbr-list-grow=\"socialCount\" mbr-if=\"socialCount > 0\">\n                            <div class=\"icons\">\n                                <div class=\"border__radius\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-twitter socicon\" style=\"font-size: 20px;\"></span>\n                                </div>\n                            </div>\n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-lg-3 col-sm-6\">\n                <div class=\"image\">\n                    <a href=\"page9.html\"><img src=\"@PROJECT_PATH@/assets/images/20190322-152924-275x334.jpg\" alt title></a>\n                    <div class=\"text__block text-white\">\n                        <p class=\"text__title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".text__title, .social__wrap\"><a href=\"page9.html\" class=\"text-white\">古勒勒．羅拉登（雷恩）</a><br></p>\n                        <p class=\"text__descr mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".text__descr\">Kulele Ruladen</p>\n                        <div class=\"social__wrap\" mbr-list mbr-list-grow=\"socialCount\" mbr-if=\"socialCount > 0\">\n                            <div class=\"icons\">\n                                <div class=\"border__radius\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-twitter socicon\" style=\"font-size: 20px;\"></span>\n                                </div>\n                            </div>\n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n        <div class=\"col-lg-3 col-sm-6\">\n                <div class=\"image\">\n                    <a href=\"page10.html\"><img src=\"@PROJECT_PATH@/assets/images/20180529-180849-275x334.jpg\" alt title></a>\n                    <div class=\"text__block text-white\">\n                        <p class=\"text__title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".text__title, .social__wrap\"><a href=\"page10.html\" class=\"text-white\">依法兒‧瑪琳奇那</a><br></p>\n                        <p class=\"text__descr mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".text__descr\">Eval Malinjinnan</p>\n                        <div class=\"social__wrap\" mbr-list mbr-list-grow=\"socialCount\" mbr-if=\"socialCount > 0\">\n                            <div class=\"icons\">\n                                <div class=\"border__radius\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-twitter socicon\" style=\"font-size: 20px;\"></span>\n                                </div>\n                            </div>\n                            \n                        </div>\n                    </div>\n                </div>\n            </div><div class=\"col-lg-3 col-sm-6\">\n                <div class=\"image\">\n                    <a href=\"page11.html\"><img src=\"@PROJECT_PATH@/assets/images/20190322-152706-275x334.jpg\" alt title></a>\n                    <div class=\"text__block text-white\">\n                        <p class=\"text__title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".text__title, .social__wrap\"><a href=\"page11.html\" class=\"text-white\">書巴里.以使馬哈善</a><br></p>\n                        <p class=\"text__descr mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".text__descr\">Subali Ismahasan</p>\n                        <div class=\"social__wrap\" mbr-list mbr-list-grow=\"socialCount\" mbr-if=\"socialCount > 0\">\n                            <div class=\"icons\">\n                                <div class=\"border__radius\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-twitter socicon\" style=\"font-size: 20px;\"></span>\n                                </div>\n                            </div>\n                            \n                        </div>\n                    </div>\n                </div>\n            </div><div class=\"col-lg-3 col-sm-6\">\n                <div class=\"image\">\n                    <a href=\"page12.html\"><img src=\"@PROJECT_PATH@/assets/images/20160714-123225-275x334.jpg\" alt title></a>\n                    <div class=\"text__block text-white\">\n                        <p class=\"text__title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".text__title, .social__wrap\"><a href=\"page12.html\" class=\"text-white\">優席夫</a><br></p>\n                        <p class=\"text__descr mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".text__descr\">Yosifu</p>\n                        <div class=\"social__wrap\" mbr-list mbr-list-grow=\"socialCount\" mbr-if=\"socialCount > 0\">\n                            <div class=\"icons\">\n                                <div class=\"border__radius\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-twitter socicon\" style=\"font-size: 20px;\"></span>\n                                </div>\n                            </div>\n                            \n                        </div>\n                    </div>\n                </div>\n            </div></div>\n\n\n\n    </div>\n</section>",
+          "_customHTML": "<section class=\"team1 conferencem4_team1\" group=\"Teams\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Card</header>\n        <input type=\"range\" inline title=\"Card Height\" name=\"cardHeight\" min=\"200\" max=\"500\" step=\"20\" value=\"300\">\n        <input type=\"range\" inline title=\"Card Count\" name=\"cardCount\" min=\"1\" max=\"8\" step=\"1\" value=\"7\">\n        <header>Social Icon</header>\n        <input type=\"color\" title=\"Border Color\" value=\"#ffffff\" name=\"borderColor\" condition=\"socialCount > 0\">\n        <input type=\"range\" inline title=\"Social Count\" name=\"socialCount\" min=\"0\" max=\"4\" step=\"1\" value=\"0\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/conference28_1920.jpg\">\n            <input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n            <input type=\"color\" title=\"Color\" value=\"#f5f7fd\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#149dcc\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row title__wrap\">\n            <div class=\"title__block\" mbr-class=\"{'col-sm-6' : showButtons, 'col-sm-12' : !showButtons}\">\n                <h3 class=\"mbr-section-subtitle mbr-semibold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">ARTIST藝術家</h3>\n                <h2 class=\"mbr-section-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">透過良善企業團隊的支持，協力整合產官學在藝術生產方面的能量，擬長期戮力於協助原住民當代藝術之國內外推廣</h2>\n            </div>\n            <div class=\"col-sm-6 buttons\" mbr-if=\"showButtons\">\n                <div class=\"mbr-section-btn\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-sm btn-primary\" href=\"#\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-arrow-next mbr-iconfont mbr-iconfont-btn\"></span></a></div>\n            </div>\n        </div>\n        <div class=\"row wrap justify-content-center\" mbr-list mbr-list-grow=\"cardCount\">\n            <div class=\"col-lg-3 col-sm-6\">\n                <div class=\"image\">\n                    <a href=\"page7.html\"><img src=\"@PROJECT_PATH@/assets/images/20190322-152807-275x334.jpg\" alt title></a>\n                    <div class=\"text__block text-white\">\n                        <p class=\"text__title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".text__title, .social__wrap\"><a href=\"page7.html\" class=\"text-white\">撒古流‧巴瓦瓦隆</a><br></p>\n                        <p class=\"text__descr mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".text__descr\">Sakuliu Pavavalung</p>\n                        <div class=\"social__wrap\" mbr-list mbr-list-grow=\"socialCount\" mbr-if=\"socialCount > 0\">\n                            <div class=\"icons\">\n                                <div class=\"border__radius\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-twitter socicon\" style=\"font-size: 20px;\"></span>\n                                </div>\n                            </div>\n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-lg-3 col-sm-6\">\n                <div class=\"image\">\n                    <a href=\"page6.html\"><img src=\"@PROJECT_PATH@/assets/images/20190322-152853-275x334.jpg\" alt title></a>\n                    <div class=\"text__block text-white\">\n                        <p class=\"text__title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".text__title, .social__wrap\"><a href=\"page6.html\" class=\"text-white\">伊誕．巴瓦瓦隆</a><br></p>\n                        <p class=\"text__descr mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".text__descr\">Etan Pavavalung</p>\n                        <div class=\"social__wrap\" mbr-list mbr-list-grow=\"socialCount\" mbr-if=\"socialCount > 0\">\n                            <div class=\"icons\">\n                                <div class=\"border__radius\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-twitter socicon\" style=\"font-size: 20px;\"></span>\n                                </div>\n                            </div>\n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-lg-3 col-sm-6\">\n                <div class=\"image\">\n                    <a href=\"page8.html\"><img src=\"@PROJECT_PATH@/assets/images/20190322-152911-275x334.jpg\" alt title></a>\n                    <div class=\"text__block text-white\">\n                        <p class=\"text__title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".text__title, .social__wrap\"><a href=\"page8.html\" class=\"text-white\">巴豪嵐．吉嵐</a><br></p>\n                        <p class=\"text__descr mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".text__descr\">Chi-Lan Pa Hao Lan</p>\n                        <div class=\"social__wrap\" mbr-list mbr-list-grow=\"socialCount\" mbr-if=\"socialCount > 0\">\n                            <div class=\"icons\">\n                                <div class=\"border__radius\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-twitter socicon\" style=\"font-size: 20px;\"></span>\n                                </div>\n                            </div>\n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-lg-3 col-sm-6\">\n                <div class=\"image\">\n                    <a href=\"page9.html\"><img src=\"@PROJECT_PATH@/assets/images/20190322-152924-275x334.jpg\" alt title></a>\n                    <div class=\"text__block text-white\">\n                        <p class=\"text__title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".text__title, .social__wrap\"><a href=\"page9.html\" class=\"text-white\">古勒勒．羅拉登（雷恩）</a><br></p>\n                        <p class=\"text__descr mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".text__descr\">Kulele Ruladen</p>\n                        <div class=\"social__wrap\" mbr-list mbr-list-grow=\"socialCount\" mbr-if=\"socialCount > 0\">\n                            <div class=\"icons\">\n                                <div class=\"border__radius\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-twitter socicon\" style=\"font-size: 20px;\"></span>\n                                </div>\n                            </div>\n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n        <div class=\"col-lg-3 col-sm-6\">\n                <div class=\"image\">\n                    <a href=\"page10.html\"><img src=\"@PROJECT_PATH@/assets/images/20180529-180849-275x334.jpg\" alt title></a>\n                    <div class=\"text__block text-white\">\n                        <p class=\"text__title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".text__title, .social__wrap\"><a href=\"page10.html\" class=\"text-white\">依法兒‧瑪琳奇那</a><br></p>\n                        <p class=\"text__descr mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".text__descr\">Eval Malinjinnan</p>\n                        <div class=\"social__wrap\" mbr-list mbr-list-grow=\"socialCount\" mbr-if=\"socialCount > 0\">\n                            <div class=\"icons\">\n                                <div class=\"border__radius\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-twitter socicon\" style=\"font-size: 20px;\"></span>\n                                </div>\n                            </div>\n                            \n                        </div>\n                    </div>\n                </div>\n            </div><div class=\"col-lg-3 col-sm-6\">\n                <div class=\"image\">\n                    <a href=\"page11.html\"><img src=\"@PROJECT_PATH@/assets/images/20190322-152706-275x334.jpg\" alt title></a>\n                    <div class=\"text__block text-white\">\n                        <p class=\"text__title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".text__title, .social__wrap\"><a href=\"page11.html\" class=\"text-white\">書巴里.以使馬哈善</a><br></p>\n                        <p class=\"text__descr mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".text__descr\">Subali Ismahasan</p>\n                        <div class=\"social__wrap\" mbr-list mbr-list-grow=\"socialCount\" mbr-if=\"socialCount > 0\">\n                            <div class=\"icons\">\n                                <div class=\"border__radius\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-twitter socicon\" style=\"font-size: 20px;\"></span>\n                                </div>\n                            </div>\n                            \n                        </div>\n                    </div>\n                </div>\n            </div><div class=\"col-lg-3 col-sm-6\">\n                <div class=\"image\">\n                    <a href=\"page12.html\"><img src=\"@PROJECT_PATH@/assets/images/20160714-123225-275x334.jpg\" alt title></a>\n                    <div class=\"text__block text-white\">\n                        <p class=\"text__title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".text__title, .social__wrap\"><a href=\"page12.html\" class=\"text-white\">優席夫</a><br></p>\n                        <p class=\"text__descr mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".text__descr\">Yosifu</p>\n                        <div class=\"social__wrap\" mbr-list mbr-list-grow=\"socialCount\" mbr-if=\"socialCount > 0\">\n                            <div class=\"icons\">\n                                <div class=\"border__radius\">\n                                    <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-twitter socicon\" style=\"font-size: 20px;\"></span>\n                                </div>\n                            </div>\n                            \n                        </div>\n                    </div>\n                </div>\n            </div></div>\n\n\n\n    </div>\n</section>",
           "_cid": "sydNVhuslk",
           "_anchor": "team1-13",
           "_protectedParams": [],
@@ -906,7 +906,7 @@
               "text-align": "center"
             }
           },
-          "_customHTML": "<section class=\"header2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1-5.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10 align-center\">\n                <h1 class=\"mbr-section-title mbr-semibold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">COLUMN藝文專欄</h1>\n                <h3 class=\"mbr-section-subtitle mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">台南城市街區的面貌時時刻刻都在改變。<br>社區裡的古蹟連同我們的歷史、社區關係與文化身份都在理所當然的生活中漸漸消失。<br>這裡雖然不在偏鄉，但卻看起來有點老氣沈沈。</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black-outline\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">LEARN MORE</a>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"header2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1-5.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10 align-center\">\n                <h1 class=\"mbr-section-title mbr-semibold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">COLUMN藝文專欄</h1>\n                <h3 class=\"mbr-section-subtitle mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">台南城市街區的面貌時時刻刻都在改變。<br>社區裡的古蹟連同我們的歷史、社區關係與文化身份都在理所當然的生活中漸漸消失。<br>這裡雖然不在偏鄉，但卻看起來有點老氣沈沈。</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black-outline\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">LEARN MORE</a>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
           "_anchor": "header02-29",
           "_isUserblock": true,
           "_cid": "sylQgZ4FB6",
@@ -7227,7 +7227,7 @@
           },
           "_name": "content2",
           "_sourceTheme": "conferencem4",
-          "_customHTML": "<section class=\"content2 conferencem4_content2\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"8\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n\t\t<input type=\"checkbox\" title=\"Left/Right Content\" name=\"reverse\" checked>\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n\t\t<input type=\"checkbox\" title=\"Columns\" name=\"showBottomText\" checked>\n\t\t<input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n\t\t<input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#191f23\" condition=\"showBottomText\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"../_images/conference28_1920.jpg\">\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#149dcc\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n\t</div>\n\n\t<div class=\"container\">\n\t\t<div class=\"row justify-content-center align-items-center\" mbr-class=\"{'flex-row-reverse' : reverse}\">\n\t\t\t<div class=\"col-lg-5 col-sm-7\">\n\t\t\t\t<div class=\"mbr-figure\">\n\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/20190322-152853-275x334.jpg\" alt title>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"col-lg-1 d-none d-lg-block\"></div>\n\t\t\t<div class=\"col-lg-6 title__block\">\n\t\t\t\t<h3 class=\"mbr-section-subtitle mbr-semibold mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"><div>1963</div></h3>\n\t\t\t\t<h2 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>伊誕．巴瓦瓦隆</b><div><b>Etan Pavavalung</b></div></h2>\n\t\t\t\t<p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">「伊誕」之名繼承自外祖父，是個古老的排灣語名字，意為「勇者」；「巴瓦瓦隆」是家名，指出生降臨大地的家，也是伊誕父親所繼承的家。</p>\n\t\t\t\t<div class=\"row\" mbr-if=\"showBottomText\">\n\t\t\t\t\t<div class=\"col-sm-6\">\n\t\t\t\t\t\t<div class=\"divider\"></div>\n\t\t\t\t\t\t<p class=\"bottom__text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".bottom__text\">伊誕．巴瓦瓦隆，出生於台灣屏東達瓦蘭部落的排灣族藝術世家。「伊誕」之名繼承自外祖父，是個古老的排灣語名字，意為「勇者」；「巴瓦瓦隆」是家名，指出生降臨大地的家，也是伊誕父親所繼承的家。<br><br>伊誕幼年常被雙親帶到田裡工作、採野菜和百合花，這些與大地為伍的情景，強烈烙印在他的心靈。他認為，人類離自然大地愈遠，愈會回想與尋找來自它的美麗，以及帶給人們的純真價值，這正是孕育伊誕豐富、神秘創作的思想背景。<br><br>伊誕的藝術創作極為多元，舉凡詩、散文、報導文學、繪畫、版畫、雕刻、廣告設計、裝置藝術及影像紀錄等，作品風格細膩詩意、古樸神秘、富想像力。信仰是伊誕心靈深處的導航者，接受神學教育時，對「道」的思考，改變了他的生命態度，並找到致力於族群自覺及甦醒的力量。<br><br>八0年代的野百合學運及原住民運動，是影響伊誕創作風格的重要時期，在當代還我土地的原運期間，經常出現在刊物、海報和T恤上的原民紋路及百合花圖樣，原創作者就是伊誕。他認為原住民的盼望，必須草根性地從深遠的人文藝術開啟，於是運用族人的百合花圖像與精神做為創作內涵，成為救贖與復活的新象徵。</p>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"col-sm-6\">\n\t\t\t\t\t\t<div class=\"divider\"></div>\n\t\t\t\t\t\t<p class=\"bottom__text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".bottom__text\">Etan Pavavalung was born to a Paiwan family of art in Davalan Tribe, Pingtung. The name “Etan” was inherited from his maternal grandfather, which is an ancient name of Paiwan meaning “a brave man”. The family name “Pavavalung” refers to the earthly home he was born to, which is also the home Etan’s father inherited.<br><br>Etan was often taken by his parents to the field to work and pick vegetables and lilies when he was little. The image of being with the Nature was imprinted onto his mind. He is convinced that the farther the mankind is away from the Mother Nature, the stronger desire humans possess to recollect and retrace its beauty and the innocent value it has brought to the humanity. That is the philosophical context of Etan’s rich, mysterious creativity.<br><br>The art creations of Etan are diverse, ranging from poetry, prose, reportage, painting, print, carving, advertisement design, installation, and documentary. His artworks are delicate and poetic, full of quaintly mysterious imagination. Faith is the compass at the bottom of Etan’s heart. When Etan was receiving theological education, the contemplation of “way” changed his attitude toward life, and helped him acquire the power devoted to the awareness and awakening of his people.<br><br>The Wild Lily student movement and the indigenous movement back in the 1980s were the critical period that influenced Etan’s creative style. During the indigenous movement that appealed for the returning of the homeland in the contemporary context, the indigenous patterns and the lily emblem appearing on publications, posters, and T-shirts were created by Etan. He believed that the hope of the indigenous peoples lies in the enlightenment of humanity and arts at the grass root level. Therefore, the lily emblem and spirit of his people are utilized as the base of creation, becoming the new symbol for redemption as well as resurrection.&nbsp;&nbsp;<br><br></p>\n\t\t\t\t\t</div>\n\n\t\t\t\t</div>\n\t\t\t\t<div class=\"mbr-section-btn\" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showButtons\"><a class=\"btn btn-black\" href=\"page6.html#features010-40\" data-app-placeholder=\"Type Text\">作品</a></div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_customHTML": "<section class=\"content2 conferencem4_content2\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"8\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n\t\t<input type=\"checkbox\" title=\"Left/Right Content\" name=\"reverse\" checked>\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n\t\t<input type=\"checkbox\" title=\"Columns\" name=\"showBottomText\" checked>\n\t\t<input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n\t\t<input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#191f23\" condition=\"showBottomText\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"../_images/conference28_1920.jpg\">\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#149dcc\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n\t</div>\n\n\t<div class=\"container\">\n\t\t<div class=\"row justify-content-center align-items-center\" mbr-class=\"{'flex-row-reverse' : reverse}\">\n\t\t\t<div class=\"col-lg-5 col-sm-7\">\n\t\t\t\t<div class=\"mbr-figure\">\n\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/20190322-152853-275x334.jpg\" alt title>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"col-lg-1 d-none d-lg-block\"></div>\n\t\t\t<div class=\"col-lg-6 title__block\">\n\t\t\t\t<h3 class=\"mbr-section-subtitle mbr-semibold mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"><div>1963</div></h3>\n\t\t\t\t<h2 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>伊誕．巴瓦瓦隆</b><div><b>Etan Pavavalung</b></div></h2>\n\t\t\t\t<p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">「伊誕」之名繼承自外祖父，是個古老的排灣語名字，意為「勇者」；「巴瓦瓦隆」是家名，指出生降臨大地的家，也是伊誕父親所繼承的家。</p>\n\t\t\t\t<div class=\"row\" mbr-if=\"showBottomText\">\n\t\t\t\t\t<div class=\"col-sm-6\">\n\t\t\t\t\t\t<div class=\"divider\"></div>\n\t\t\t\t\t\t<p class=\"bottom__text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".bottom__text\">伊誕．巴瓦瓦隆，出生於台灣屏東達瓦蘭部落的排灣族藝術世家。「伊誕」之名繼承自外祖父，是個古老的排灣語名字，意為「勇者」；「巴瓦瓦隆」是家名，指出生降臨大地的家，也是伊誕父親所繼承的家。<br><br>伊誕幼年常被雙親帶到田裡工作、採野菜和百合花，這些與大地為伍的情景，強烈烙印在他的心靈。他認為，人類離自然大地愈遠，愈會回想與尋找來自它的美麗，以及帶給人們的純真價值，這正是孕育伊誕豐富、神秘創作的思想背景。<br><br>伊誕的藝術創作極為多元，舉凡詩、散文、報導文學、繪畫、版畫、雕刻、廣告設計、裝置藝術及影像紀錄等，作品風格細膩詩意、古樸神秘、富想像力。信仰是伊誕心靈深處的導航者，接受神學教育時，對「道」的思考，改變了他的生命態度，並找到致力於族群自覺及甦醒的力量。<br><br>八0年代的野百合學運及原住民運動，是影響伊誕創作風格的重要時期，在當代還我土地的原運期間，經常出現在刊物、海報和T恤上的原民紋路及百合花圖樣，原創作者就是伊誕。他認為原住民的盼望，必須草根性地從深遠的人文藝術開啟，於是運用族人的百合花圖像與精神做為創作內涵，成為救贖與復活的新象徵。</p>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"col-sm-6\">\n\t\t\t\t\t\t<div class=\"divider\"></div>\n\t\t\t\t\t\t<p class=\"bottom__text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".bottom__text\">Etan Pavavalung was born to a Paiwan family of art in Davalan Tribe, Pingtung. The name “Etan” was inherited from his maternal grandfather, which is an ancient name of Paiwan meaning “a brave man”. The family name “Pavavalung” refers to the earthly home he was born to, which is also the home Etan’s father inherited.<br><br>Etan was often taken by his parents to the field to work and pick vegetables and lilies when he was little. The image of being with the Nature was imprinted onto his mind. He is convinced that the farther the mankind is away from the Mother Nature, the stronger desire humans possess to recollect and retrace its beauty and the innocent value it has brought to the humanity. That is the philosophical context of Etan’s rich, mysterious creativity.<br><br>The art creations of Etan are diverse, ranging from poetry, prose, reportage, painting, print, carving, advertisement design, installation, and documentary. His artworks are delicate and poetic, full of quaintly mysterious imagination. Faith is the compass at the bottom of Etan’s heart. When Etan was receiving theological education, the contemplation of “way” changed his attitude toward life, and helped him acquire the power devoted to the awareness and awakening of his people.<br><br>The Wild Lily student movement and the indigenous movement back in the 1980s were the critical period that influenced Etan’s creative style. During the indigenous movement that appealed for the returning of the homeland in the contemporary context, the indigenous patterns and the lily emblem appearing on publications, posters, and T-shirts were created by Etan. He believed that the hope of the indigenous peoples lies in the enlightenment of humanity and arts at the grass root level. Therefore, the lily emblem and spirit of his people are utilized as the base of creation, becoming the new symbol for redemption as well as resurrection.&nbsp;&nbsp;<br><br></p>\n\t\t\t\t\t</div>\n\n\t\t\t\t</div>\n\t\t\t\t<div class=\"mbr-section-btn\" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showButtons\"><a class=\"btn btn-black\" href=\"page6.html#gallery1-5d\" data-app-placeholder=\"Type Text\">作品</a></div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
           "_cid": "syOL1ub9LX",
           "_anchor": "content2-3d",
           "_protectedParams": [],
@@ -7433,126 +7433,260 @@
           "_params": {}
         },
         {
-          "_name": "features010",
-          "_sourceTheme": "artm4",
+          "_name": "gallery1",
+          "_sourceTheme": "conferencem4",
           "_styles": {
             "padding-top": "(@paddingTop * 1rem)",
             "padding-bottom": "(@paddingBottom * 1rem)",
-            "& when (@bg-type = \"color\")": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = \"image\")": {
-              "background-image": "url(@bg-value)",
-              "& when (@overlay)": {
-                ".mbr-overlay": {
-                  "background": "@overlayColor",
-                  "opacity": "@overlayOpacity"
-                }
-              }
-            },
-            "@media (min-width: 1400px)": {
-              ".container-fluid .row": {
-                "justify-content": "flex-end",
-                "padding-right": "2rem"
-              },
-              ".col-lg-3": {
-                "max-width": "330px"
-              }
-            },
-            "img": {
-              "object-fit": "cover",
-              "transition": "all 0.3s",
-              "max-height": "100%"
-            },
-            ".item-img": {
-              "background": "@imgHover",
-              "padding": "0.7rem",
-              "&:hover": {
-                "padding": "0"
-              }
-            },
-            ".container": {
-              "max-width": "1400px"
-            },
-            "img, .item-img": {
-              "transition": "all 0.3s",
-              "width": "100%",
-              "position": "relative",
-              "& when (@autoSize)": {
-                "height": "100%",
-                "object-fit": "cover",
-                "& when (@showCardTitle)": {
-                  "height": "(@imageHeight * 100px)",
-                  "object-fit": "cover"
-                },
-                "& when (@showCardSubtitle)": {
-                  "height": "(@imageHeight * 100px)",
-                  "object-fit": "cover"
-                },
-                "& when (@showText)": {
-                  "height": "(@imageHeight * 100px)",
-                  "object-fit": "cover"
-                },
-                "& when (@showButtons)": {
-                  "height": "(@imageHeight * 100px)",
-                  "object-fit": "cover"
-                }
-              }
-            },
-            ".item:focus, span:focus": {
-              "outline": "none"
-            },
-            ".item": {
-              "cursor": "pointer",
-              "margin-bottom": "2rem"
-            },
-            "& when not (@spacing)": {
-              ".row": {
-                "margin-left": "0",
-                "margin-right": "0"
-              },
-              ".item": {
-                "padding": "0",
-                "margin": "0"
-              }
-            },
-            ".item-wrapper": {
-              "position": "relative",
-              "height": "100%",
-              "display": "flex",
-              "flex-flow": "column nowrap"
-            },
-            ".item-content": {
-              "padding-top": "1.5rem"
-            },
-            ".mbr-section-btn": {
-              "margin-top": "auto !important"
-            },
+            "background-color": "@bgColor",
+            "overflow": "hidden",
+            "box-sizing": "border-box",
             ".mbr-section-title": {
-              "color": "#232323",
+              "margin-bottom": "25px",
               "text-align": "center"
             },
-            ".mbr-text, .mbr-section-btn": {
-              "color": "#818181",
-              "text-align": "left"
+            ".mbr-section-subtitle": {
+              "margin-bottom": "88px",
+              "font-weight": "400"
             },
-            ".item-title": {
-              "text-align": "left"
+            ".image": {
+              "position": "relative",
+              "z-index": "0",
+              "top": "-50px",
+              "img": {
+                "z-index": "-1",
+                "width": "100%",
+                "max-height": "410px",
+                "object-fit": "cover"
+              }
             },
-            ".item-subtitle": {
-              "text-align": "left"
+            ".mbr-gallery-filter": {
+              "text-align": "left",
+              "padding": "0 20px",
+              "border-bottom": "1px solid @borderColor",
+              ".btn": {
+                "padding": "0 20px 40px",
+                "margin": "0",
+                "margin-right": "35px",
+                "color": "@tagsColor !important",
+                "font-weight": "700",
+                "text-align": "left",
+                "background": "transparent !important",
+                "position": "relative",
+                "border": "none",
+                "min-width": "auto",
+                "width": "auto"
+              },
+              "ul": {
+                "display": "block",
+                "li": {
+                  "position": "relative",
+                  "padding": "0"
+                }
+              },
+              "li:not(.active) .btn.active:after, li.active .btn:not(.active):after, .mbr-gallery-filter .btn:hover:after": {
+                "content": "\"\"",
+                "position": "absolute",
+                "left": "0",
+                "right": "auto",
+                "width": "100%",
+                "bottom": "0",
+                "height": "11px",
+                "background-color": "@activeTabColor",
+                "transition": "all 0.3s ease"
+              }
+            },
+            ".mbr-gallery-row": {
+              "margin-top": "50px"
+            },
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem",
+              "border-radius": "4px"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem",
+              "border-radius": "4px"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "opacity": "0",
+              "transition": "0.2s opacity ease-in-out",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              }
+            },
+            ".mbr-gallery-item > div:hover::before": {
+              "opacity": "@overlayOpacity !important"
+            },
+            ".mbr-gallery-title": {
+              "transition": "all .3s",
+              "position": "absolute",
+              "display": "block",
+              "font-weight": "700",
+              "width": "100%",
+              "bottom": "30px",
+              "left": "0",
+              "text-align": "center",
+              "padding": "0 1rem",
+              "color": "#fff",
+              "background": "transparent"
+            },
+            "& when (@showIcon)": {
+              ".icon-focus": {
+                "transition": "all .3s",
+                "top": "30%",
+                "width": "48px",
+                "height": "48px",
+                "transform": "translateY(-30%)"
+              }
+            },
+            "& when not (@showIcon)": {
+              ".icon-focus": {
+                "display": "none"
+              }
+            },
+            ".mbr-gallery-item": {
+              "> div img, div:before": {
+                "border-radius": "4px",
+                "height": "255px"
+              },
+              "> div": {
+                "transition": "all .3s",
+                "border-radius": "4px"
+              },
+              "&:hover": {
+                "> div": {
+                  "transform": "scale(0.95)"
+                }
+              }
+            },
+            ".carousel-control-prev": {
+              ".mbri-left:before": {
+                "content": "\"\\e90a\""
+              }
+            },
+            ".carousel-control-next": {
+              ".mbri-right:before": {
+                "content": "\"\\e909\""
+              }
+            },
+            ".modal-body a.close": {
+              "border-radius": "0",
+              "font-size": "32px",
+              "top": "0",
+              "right": "0",
+              "height": "70px",
+              "width": "70px",
+              "line-height": "70px"
+            },
+            "@media (max-width: 991px)": {
+              ".mbr-section-subtitle": {
+                "margin-bottom": "20px",
+                "text-align": "center"
+              },
+              ".mbr-section-title": {
+                "text-align": "center"
+              },
+              ".image": {
+                "top": "auto",
+                "height": "420px"
+              },
+              ".mbr-gallery-filter": {
+                ".btn": {
+                  "padding": "0 0 22px"
+                },
+                "ul li": {
+                  "margin-bottom": "10px"
+                }
+              },
+              ".mbr-gallery-item": {
+                "> div img, div:before": {
+                  "height": "auto",
+                  "border-radius": "3px"
+                },
+                "> div": {
+                  "border-radius": "3px"
+                }
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".image": {
+                "height": "290px"
+              }
             }
           },
-          "_customHTML": "<section class=\"features10\" group=\"Features\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <select title=\"Columns\" name=\"cardsWidth\">\n            <option value=\"12\">1</option>\n            <option value=\"6\">2</option>\n            <option value=\"4\" selected>3</option>\n            <option value=\"3\">4</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" name=\"showTitle\" title=\"Title\" checked>\n        <input type=\"checkbox\" name=\"showSubtitle\" title=\"Subtitle\">\n        <header>Cards</header>\n        <input type=\"checkbox\" name=\"autoSize\" title=\"Auto Size\" checked>\n        <input type=\"range\" name=\"imageHeight\" title=\"Height\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"autoSize && !(showButtons==false && showCardSubtitle==false && showCardTitle==false && showText==false)\">\n        <input type=\"checkbox\" title=\"Spacing\" name=\"spacing\" checked>\n        <input type=\"checkbox\" name=\"showCardTitle\" title=\"Title\">\n        <input type=\"checkbox\" name=\"showCardSubtitle\" title=\"Subtitle\" checked>\n        <input type=\"checkbox\" name=\"showText\" title=\"Text\" checked>\n        <input type=\"checkbox\" name=\"showButtons\" title=\"Buttons\">\n        <input type=\"color\" title=\"Image Border\" name=\"imgHover\" value=\"#ebeaed\" selected>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" required>\n            <input type=\"image\" title=\"Image\" value>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#fafafa\" condition=\"overlay && bg.type == 'image'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.1\" condition=\"overlay && bg.type == 'image'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\">\n            <h4 class=\"mbr-section-title mbr-fonts-style align-left mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">作品</h4>\n            <h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Images with Title and Text</h5>\n        </div>\n        <div class=\"row mt-4\">\n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}} active\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/20160503-151145-872x642.jpg\" alt data-slide-to=\"0\">\n                    </div>\n                    <div class=\"item-content align-left\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">百年好合</h6>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text, .mbr-section-btn\">30x20cm，2 pieces<br>伊誕巴瓦瓦隆－紋砌刻畫<br><br></p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-4\"><a href class=\"btn btn-primary item-btn\" target=\"_blank\" data-app-placeholder=\"Type Text\">更多資訊&gt;</a></div>\n                </div>\n            </div>\n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/20160503-120708-873x295.jpg\" data-slide-to=\"1\" alt>\n                    </div>\n                    <div class=\"item-content align-left\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>公共藝術x展覽<br>2019-臺南</b></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n                            海部落\n                        </h6>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text, .mbr-section-btn\">80x240x5cm<br>伊誕巴瓦瓦隆－紋砌刻畫<br></p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-4\"><a href class=\"btn btn-primary item-btn\" target=\"_blank\" data-app-placeholder=\"Type Text\">&nbsp;更多資訊&gt;</a></div>\n                </div>\n            </div><div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/20160503-120537-873x295.jpg\" alt data-slide-to=\"2\">\n                    </div>\n                    <div class=\"item-content align-left\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>展覽<br>2019-臺北</b></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">山部落</h6>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text, .mbr-section-btn\">80x240x5cm<br>伊誕巴瓦瓦隆－紋砌刻畫<br></p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-4\"><a href class=\"btn btn-primary item-btn\" target=\"_blank\" data-app-placeholder=\"Type Text\">更多資訊 &gt;</a></div>\n                </div>\n            </div>\n            \n            \n\n\n        </div>\n    </div>\n</section>",
-          "_JSplaceholders": [],
-          "_PHPplaceholders": [],
-          "_anchor": "features010-40",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel extGallery gallery1 voyagem4_gallery1\" group=\"Sliders & Galleries\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"7\" inline>\n\t\t<input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" inline>\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n\t\t<input type=\"checkbox\" title=\"Image\" name=\"showImage\">\n\t\t<header>Filter</header>\n\t\t<input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#191f23\">\n\t\t<input type=\"color\" title=\"Active Tab Color\" name=\"activeTabColor\" value=\"#444345\">\n\t\t<input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#444345\">\n\t\t<header>Gallery</header>\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#6a696c\">\n\t\t<input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\">\n\t\t<input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#ffffff\" condition=\"gradOverlay\">\n\t\t<input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" inline>\n\t\t<input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#f5f7fd\">\n\t\t<input type=\"checkbox\" title=\"Show Icon\" name=\"showIcon\">\n\t\t<input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"container\" mbr-if=\"showTitle || showSubtitle || showImage\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col-12\" mbr-class=\"{'col-lg-5' : showImage, 'col-lg-12' : !showImage}\">\n\t\t\t\t<h3 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">作品</h3>\n\t\t\t\t<h4 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSubtitle\">TICA台北原住民當代藝術中心於2016年初，由誠美社會企業贊助成立，旨在提供原住民藝術創作者一個都會型的當代專業畫廊展覽空間，藉由專業論述方式，讓原住民藝術家有更自主性的表述空間。未來將致力於協助整合全省原住民藝術工作者，提供專業視覺藝術產業相關產業知識行銷等育成方面的教育課程、工作坊。</h4>\n\t\t\t</div>\n\t\t\t<div class=\"col-lg-7 col-12\" mbr-if=\"showImage\">\n\t\t\t\t<div class=\"image\">\n\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/7f-2-1270x952.jpg\" alt title>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t<div class=\"gallery__wrap container\">\n\t\t<div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"6\" mbr-gallery-show-text></div>\n\t</div>\n</section>",
+          "_anchor": "gallery1-5d",
           "_isUserblock": true,
-          "_cid": "syPa1FCbWM",
-          "_protectedParams": [],
+          "_cid": "syPrFmO3SB",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {
+            "text_all": "全部",
+            "gallery__filtersTextStyle": "display-4",
+            "gallery__filtersBtnStyle": "btn-black",
+            "gallery": [
+              {
+                "tags": "空總社會創新實驗中心",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/20160503-151145-872x642.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20160503-151145-872x642-800x589.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-4",
+                "caption": "百年好合<br>30x20cm，2 pieces<br>伊誕巴瓦瓦隆－紋砌刻畫<br>",
+                "active": true
+              },
+              {
+                "tags": "空總社會創新實驗中心",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/20160503-120708-873x295.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20160503-120708-873x295-800x270.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-4",
+                "caption": "海部落<br>80x240x5cm<br>伊誕巴瓦瓦隆－紋砌刻畫<br>",
+                "active": false
+              },
+              {
+                "tags": "空總社會創新實驗中心",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/20160503-120537-873x295.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20160503-120537-873x295-800x270.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-4",
+                "caption": "山部落<br>80x240x5cm<br>伊誕巴瓦瓦隆－紋砌刻畫<br>",
+                "active": false
+              }
+            ]
+          }
         },
         {
           "_name": "content11",
@@ -9095,126 +9229,260 @@
           "_anchor": "features11-44"
         },
         {
-          "_name": "features010",
-          "_sourceTheme": "artm4",
+          "_name": "gallery1",
+          "_sourceTheme": "conferencem4",
           "_styles": {
             "padding-top": "(@paddingTop * 1rem)",
             "padding-bottom": "(@paddingBottom * 1rem)",
-            "& when (@bg-type = \"color\")": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = \"image\")": {
-              "background-image": "url(@bg-value)",
-              "& when (@overlay)": {
-                ".mbr-overlay": {
-                  "background": "@overlayColor",
-                  "opacity": "@overlayOpacity"
-                }
-              }
-            },
-            "@media (min-width: 1400px)": {
-              ".container-fluid .row": {
-                "justify-content": "flex-end",
-                "padding-right": "2rem"
-              },
-              ".col-lg-3": {
-                "max-width": "330px"
-              }
-            },
-            "img": {
-              "object-fit": "cover",
-              "transition": "all 0.3s",
-              "max-height": "100%"
-            },
-            ".item-img": {
-              "background": "@imgHover",
-              "padding": "0.7rem",
-              "&:hover": {
-                "padding": "0"
-              }
-            },
-            ".container": {
-              "max-width": "1400px"
-            },
-            "img, .item-img": {
-              "transition": "all 0.3s",
-              "width": "100%",
-              "position": "relative",
-              "& when (@autoSize)": {
-                "height": "100%",
-                "object-fit": "cover",
-                "& when (@showCardTitle)": {
-                  "height": "(@imageHeight * 100px)",
-                  "object-fit": "cover"
-                },
-                "& when (@showCardSubtitle)": {
-                  "height": "(@imageHeight * 100px)",
-                  "object-fit": "cover"
-                },
-                "& when (@showText)": {
-                  "height": "(@imageHeight * 100px)",
-                  "object-fit": "cover"
-                },
-                "& when (@showButtons)": {
-                  "height": "(@imageHeight * 100px)",
-                  "object-fit": "cover"
-                }
-              }
-            },
-            ".item:focus, span:focus": {
-              "outline": "none"
-            },
-            ".item": {
-              "cursor": "pointer",
-              "margin-bottom": "2rem"
-            },
-            "& when not (@spacing)": {
-              ".row": {
-                "margin-left": "0",
-                "margin-right": "0"
-              },
-              ".item": {
-                "padding": "0",
-                "margin": "0"
-              }
-            },
-            ".item-wrapper": {
-              "position": "relative",
-              "height": "100%",
-              "display": "flex",
-              "flex-flow": "column nowrap"
-            },
-            ".item-content": {
-              "padding-top": "1.5rem"
-            },
-            ".mbr-section-btn": {
-              "margin-top": "auto !important"
-            },
+            "background-color": "@bgColor",
+            "overflow": "hidden",
+            "box-sizing": "border-box",
             ".mbr-section-title": {
-              "color": "#232323",
-              "text-align": "center"
-            },
-            ".mbr-text, .mbr-section-btn": {
-              "color": "#818181",
+              "margin-bottom": "25px",
               "text-align": "left"
             },
-            ".item-title": {
-              "text-align": "left"
+            ".mbr-section-subtitle": {
+              "margin-bottom": "88px",
+              "font-weight": "400"
             },
-            ".item-subtitle": {
-              "text-align": "left"
+            ".image": {
+              "position": "relative",
+              "z-index": "0",
+              "top": "-50px",
+              "img": {
+                "z-index": "-1",
+                "width": "100%",
+                "max-height": "410px",
+                "object-fit": "cover"
+              }
+            },
+            ".mbr-gallery-filter": {
+              "text-align": "left",
+              "padding": "0 20px",
+              "border-bottom": "1px solid @borderColor",
+              ".btn": {
+                "padding": "0 20px 40px",
+                "margin": "0",
+                "margin-right": "35px",
+                "color": "@tagsColor !important",
+                "font-weight": "700",
+                "text-align": "left",
+                "background": "transparent !important",
+                "position": "relative",
+                "border": "none",
+                "min-width": "auto",
+                "width": "auto"
+              },
+              "ul": {
+                "display": "block",
+                "li": {
+                  "position": "relative",
+                  "padding": "0"
+                }
+              },
+              "li:not(.active) .btn.active:after, li.active .btn:not(.active):after, .mbr-gallery-filter .btn:hover:after": {
+                "content": "\"\"",
+                "position": "absolute",
+                "left": "0",
+                "right": "auto",
+                "width": "100%",
+                "bottom": "0",
+                "height": "11px",
+                "background-color": "@activeTabColor",
+                "transition": "all 0.3s ease"
+              }
+            },
+            ".mbr-gallery-row": {
+              "margin-top": "50px"
+            },
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem",
+              "border-radius": "4px"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem",
+              "border-radius": "4px"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "opacity": "0",
+              "transition": "0.2s opacity ease-in-out",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              }
+            },
+            ".mbr-gallery-item > div:hover::before": {
+              "opacity": "@overlayOpacity !important"
+            },
+            ".mbr-gallery-title": {
+              "transition": "all .3s",
+              "position": "absolute",
+              "display": "block",
+              "font-weight": "700",
+              "width": "100%",
+              "bottom": "30px",
+              "left": "0",
+              "text-align": "center",
+              "padding": "0 1rem",
+              "color": "#fff",
+              "background": "transparent"
+            },
+            "& when (@showIcon)": {
+              ".icon-focus": {
+                "transition": "all .3s",
+                "top": "30%",
+                "width": "48px",
+                "height": "48px",
+                "transform": "translateY(-30%)"
+              }
+            },
+            "& when not (@showIcon)": {
+              ".icon-focus": {
+                "display": "none"
+              }
+            },
+            ".mbr-gallery-item": {
+              "> div img, div:before": {
+                "border-radius": "4px",
+                "height": "255px"
+              },
+              "> div": {
+                "transition": "all .3s",
+                "border-radius": "4px"
+              },
+              "&:hover": {
+                "> div": {
+                  "transform": "scale(0.95)"
+                }
+              }
+            },
+            ".carousel-control-prev": {
+              ".mbri-left:before": {
+                "content": "\"\\e90a\""
+              }
+            },
+            ".carousel-control-next": {
+              ".mbri-right:before": {
+                "content": "\"\\e909\""
+              }
+            },
+            ".modal-body a.close": {
+              "border-radius": "0",
+              "font-size": "32px",
+              "top": "0",
+              "right": "0",
+              "height": "70px",
+              "width": "70px",
+              "line-height": "70px"
+            },
+            "@media (max-width: 991px)": {
+              ".mbr-section-subtitle": {
+                "margin-bottom": "20px",
+                "text-align": "center"
+              },
+              ".mbr-section-title": {
+                "text-align": "center"
+              },
+              ".image": {
+                "top": "auto",
+                "height": "420px"
+              },
+              ".mbr-gallery-filter": {
+                ".btn": {
+                  "padding": "0 0 22px"
+                },
+                "ul li": {
+                  "margin-bottom": "10px"
+                }
+              },
+              ".mbr-gallery-item": {
+                "> div img, div:before": {
+                  "height": "auto",
+                  "border-radius": "3px"
+                },
+                "> div": {
+                  "border-radius": "3px"
+                }
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".image": {
+                "height": "290px"
+              }
             }
           },
-          "_customHTML": "<section class=\"features10\" group=\"Features\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <select title=\"Columns\" name=\"cardsWidth\">\n            <option value=\"12\" selected>1</option>\n            <option value=\"6\">2</option>\n            <option value=\"4\">3</option>\n            <option value=\"3\">4</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" name=\"showTitle\" title=\"Title\" checked>\n        <input type=\"checkbox\" name=\"showSubtitle\" title=\"Subtitle\">\n        <header>Cards</header>\n        <input type=\"checkbox\" name=\"autoSize\" title=\"Auto Size\" checked>\n        <input type=\"range\" name=\"imageHeight\" title=\"Height\" min=\"1\" max=\"5\" step=\"1\" value=\"5\" condition=\"autoSize && !(showButtons==false && showCardSubtitle==false && showCardTitle==false && showText==false)\">\n        <input type=\"checkbox\" title=\"Spacing\" name=\"spacing\" checked>\n        <input type=\"checkbox\" name=\"showCardTitle\" title=\"Title\">\n        <input type=\"checkbox\" name=\"showCardSubtitle\" title=\"Subtitle\" checked>\n        <input type=\"checkbox\" name=\"showText\" title=\"Text\" checked>\n        <input type=\"checkbox\" name=\"showButtons\" title=\"Buttons\">\n        <input type=\"color\" title=\"Image Border\" name=\"imgHover\" value=\"#ebeaed\" selected>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" required>\n            <input type=\"image\" title=\"Image\" value>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#fafafa\" condition=\"overlay && bg.type == 'image'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.1\" condition=\"overlay && bg.type == 'image'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\">\n            <h4 class=\"mbr-section-title mbr-fonts-style align-left mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">作品</h4>\n            <h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Images with Title and Text</h5>\n        </div>\n        <div class=\"row mt-4\">\n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}} active\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/20160325-153641-1-910x606.jpg\" alt data-slide-to=\"0\">\n                    </div>\n                    <div class=\"item-content align-left\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">原動力革命—變奏圖騰</h6>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text, .mbr-section-btn\">依場域而定<br>全部<br><br></p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-4\"><a href class=\"btn btn-primary item-btn\" target=\"_blank\" data-app-placeholder=\"Type Text\">更多資訊&gt;</a></div>\n                </div>\n            </div>\n            \n            \n            \n\n\n        </div>\n    </div>\n</section>",
-          "_JSplaceholders": [],
-          "_PHPplaceholders": [],
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel extGallery gallery1 voyagem4_gallery1\" group=\"Sliders & Galleries\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"7\" inline>\n\t\t<input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" inline>\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n\t\t<input type=\"checkbox\" title=\"Image\" name=\"showImage\">\n\t\t<header>Filter</header>\n\t\t<input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#191f23\">\n\t\t<input type=\"color\" title=\"Active Tab Color\" name=\"activeTabColor\" value=\"#444345\">\n\t\t<input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#444345\">\n\t\t<header>Gallery</header>\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#6a696c\">\n\t\t<input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\">\n\t\t<input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#ffffff\" condition=\"gradOverlay\">\n\t\t<input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" inline>\n\t\t<input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#f5f7fd\">\n\t\t<input type=\"checkbox\" title=\"Show Icon\" name=\"showIcon\">\n\t\t<input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"container\" mbr-if=\"showTitle || showSubtitle || showImage\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col-12\" mbr-class=\"{'col-lg-5' : showImage, 'col-lg-12' : !showImage}\">\n\t\t\t\t<h3 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">作品</h3>\n\t\t\t\t<h4 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSubtitle\">TICA台北原住民當代藝術中心於2016年初，由誠美社會企業贊助成立，旨在提供原住民藝術創作者一個都會型的當代專業畫廊展覽空間，藉由專業論述方式，讓原住民藝術家有更自主性的表述空間。未來將致力於協助整合全省原住民藝術工作者，提供專業視覺藝術產業相關產業知識行銷等育成方面的教育課程、工作坊。</h4>\n\t\t\t</div>\n\t\t\t<div class=\"col-lg-7 col-12\" mbr-if=\"showImage\">\n\t\t\t\t<div class=\"image\">\n\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/7f-2-1270x952.jpg\" alt title>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t<div class=\"gallery__wrap container\">\n\t\t<div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"4\" mbr-gallery-show-text></div>\n\t</div>\n</section>",
+          "_anchor": "gallery1-5f",
           "_isUserblock": true,
-          "_cid": "syPbHozWt5",
-          "_anchor": "features010-46",
-          "_protectedParams": [],
+          "_cid": "syPtNQe6Xf",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {
+            "text_all": "全部",
+            "gallery__filtersTextStyle": "display-4",
+            "gallery__filtersBtnStyle": "btn-black",
+            "gallery": [
+              {
+                "tags": "空總社會創新實驗中心",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/20160325-153641-1-910x606.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20160325-153641-1-910x606-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-4",
+                "caption": "原動力革命—變奏圖騰<br>依場域而定<br>全部<br>",
+                "active": true
+              },
+              {
+                "tags": "空總社會創新實驗中心",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/22051371-1357024127758200-5576249083401030515-o-1000x667.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/22051371-1357024127758200-5576249083401030515-o-1000x667-800x534.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-4",
+                "caption": "原動力革命—變奏圖騰<br>依場域而定<br>全部<br>",
+                "active": false
+              },
+              {
+                "tags": "空總社會創新實驗中心",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/688711e0-d868-4b8a-a0ed-96f4dd19a953-1-1224x815.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/688711e0-d868-4b8a-a0ed-96f4dd19a953-1-1224x815-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-4",
+                "caption": "原動力革命—變奏圖騰<br>依場域而定<br>全部<br>",
+                "active": false
+              }
+            ]
+          }
         },
         {
           "_name": "content11",
@@ -10683,7 +10951,7 @@
           },
           "_name": "content2",
           "_sourceTheme": "conferencem4",
-          "_customHTML": "<section class=\"content2 conferencem4_content2\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"8\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n\t\t<input type=\"checkbox\" title=\"Left/Right Content\" name=\"reverse\" checked>\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n\t\t<input type=\"checkbox\" title=\"Columns\" name=\"showBottomText\" checked>\n\t\t<input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n\t\t<input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#191f23\" condition=\"showBottomText\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"../_images/conference28_1920.jpg\">\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#149dcc\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n\t</div>\n\n\t<div class=\"container\">\n\t\t<div class=\"row justify-content-center align-items-center\" mbr-class=\"{'flex-row-reverse' : reverse}\">\n\t\t\t<div class=\"col-lg-5 col-sm-7\">\n\t\t\t\t<div class=\"mbr-figure\">\n\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/20180529-180849-275x334.jpg\" alt title>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"col-lg-1 d-none d-lg-block\"></div>\n\t\t\t<div class=\"col-lg-6 title__block\">\n\t\t\t\t<h3 class=\"mbr-section-subtitle mbr-semibold mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"><div>1975</div></h3>\n\t\t\t\t<h2 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>依法兒‧瑪琳奇那</b><div><b>Eval Malinjinnan</b></div></h2>\n\t\t\t\t<p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">依法兒瑪琳奇那，布農族藝術家，現旅居澳洲。</p>\n\t\t\t\t<div class=\"row\" mbr-if=\"showBottomText\">\n\t\t\t\t\t<div class=\"col-sm-6\">\n\t\t\t\t\t\t<div class=\"divider\"></div>\n\t\t\t\t\t\t<p class=\"bottom__text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".bottom__text\">出生在下霜的二月，失去蹤影巫師的第七個小孩，是個遺腹子。<br>與父親差身而過短暫的部落兩年歲月，身骨裡也隱眠著山中的靈氣。<br>從深林的歲月到錯綜複雜的人性世界，經歷過新爸爸的中風、憂鬱症的母親、放學後到凌晨的拾荒日子、七歲開始忙不完的家事、一路拖著大水桶遠井邊的洗衣、酸掉的便當、互相謾罵的姐姐，追殺家人的酒鬼哥哥們、繳不出的學費、其他小孩的譏笑辱罵，讓幼小的心不得不出走自己在流浪的母地，遠渡他洋，說著不再熟悉的語言。<br> <br>這樣的故事，在殖民的功利與資本主義雙脅下，像竄繞的病毒，蔓延很多原住民族的家庭中，而飽受流離失所生分了生命文化的信仰核心。我們也知道，愛，可以讓心強大，可惜，這不是失根的原住民族可以知道安身的命運。為了能夠安身只能看不見眼中的無奈、悲傷、生氣、不解以及疑惑，邊緣夾縫中生存。<br> <br>唯有歲月的洗禮與時機的到來，才可以認知這些神聖的經歷，都是為了能讓心中的眼睛看見，在世界的視野中用身體寫下文化衝擊及霸權下的世代創傷，並奠定覺知「人道」的價值與語言力量的推手。</p>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"col-sm-6\">\n\t\t\t\t\t\t<div class=\"divider\"></div>\n\t\t\t\t\t\t<p class=\"bottom__text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".bottom__text\">Eval Malinjinnan is a Taiwanese indigenous artist living in Australia.<br><br>During a snowy February, Eval Malinjinnan was born to the seventh child of a missing Bunun Shaman; she is a posthumous child. Even though Eval’s father passing her by, the two years in the community has embedded the divine essence in her.     <br> <br>From the remote village to the convoluted outside world of reality, she went through her step-father’s sudden stroke, depressed mother, endless house chores, abusive language among sisters and alcoholic brothers’ domestic violence, and on-going discriminatory environment, all together pushing her out of her motherland where she went into exile and learnt to speak different languages.<br> <br>Under the intrusion of colonialism along with utilitarianism and capitalism, this kind of scenario is a contagious plague pervading in the most Indigenous families. That they have been remorseful for the disconnection of their motherland and their core beliefs. Love can strengthen hearts, however for the uprooted and colonized peoples, to get fed is the priority. We need to prevail against helpless, rage, sorrow, uneasiness and doubt to survive in the edge of oblivion.   <br> <br>Luckily time can appease a traumatic past. Leading to the realization of seeing all predicaments as a sacred path by the mental eye, to articulate the mutual intergenerational trauma across the globe caused by cultural hegemony in the language within physical experiences. In addition to be aware of the value of humanity and the power of language. Accordingly, returning to the once discarded matrix is the only way to comprehend the meaning of life.<br><br></p>\n\t\t\t\t\t</div>\n\n\t\t\t\t</div>\n\t\t\t\t<div class=\"mbr-section-btn\" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showButtons\"><a class=\"btn btn-black\" href=\"page6.html#features010-40\" data-app-placeholder=\"Type Text\">作品</a></div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_customHTML": "<section class=\"content2 conferencem4_content2\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"8\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n\t\t<input type=\"checkbox\" title=\"Left/Right Content\" name=\"reverse\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n\t\t<input type=\"checkbox\" title=\"Columns\" name=\"showBottomText\" checked>\n\t\t<input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n\t\t<input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#191f23\" condition=\"showBottomText\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"../_images/conference28_1920.jpg\">\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#149dcc\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n\t</div>\n\n\t<div class=\"container\">\n\t\t<div class=\"row justify-content-center align-items-center\" mbr-class=\"{'flex-row-reverse' : reverse}\">\n\t\t\t<div class=\"col-lg-5 col-sm-7\">\n\t\t\t\t<div class=\"mbr-figure\">\n\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/20180529-180849-275x334.jpg\" alt title>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"col-lg-1 d-none d-lg-block\"></div>\n\t\t\t<div class=\"col-lg-6 title__block\">\n\t\t\t\t<h3 class=\"mbr-section-subtitle mbr-semibold mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"><div>1975</div></h3>\n\t\t\t\t<h2 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>依法兒‧瑪琳奇那</b><div><b>Eval Malinjinnan</b></div></h2>\n\t\t\t\t<p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">依法兒瑪琳奇那，布農族藝術家，現旅居澳洲。</p>\n\t\t\t\t<div class=\"row\" mbr-if=\"showBottomText\">\n\t\t\t\t\t<div class=\"col-sm-6\">\n\t\t\t\t\t\t<div class=\"divider\"></div>\n\t\t\t\t\t\t<p class=\"bottom__text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".bottom__text\">出生在下霜的二月，失去蹤影巫師的第七個小孩，是個遺腹子。<br>與父親差身而過短暫的部落兩年歲月，身骨裡也隱眠著山中的靈氣。<br>從深林的歲月到錯綜複雜的人性世界，經歷過新爸爸的中風、憂鬱症的母親、放學後到凌晨的拾荒日子、七歲開始忙不完的家事、一路拖著大水桶遠井邊的洗衣、酸掉的便當、互相謾罵的姐姐，追殺家人的酒鬼哥哥們、繳不出的學費、其他小孩的譏笑辱罵，讓幼小的心不得不出走自己在流浪的母地，遠渡他洋，說著不再熟悉的語言。<br> <br>這樣的故事，在殖民的功利與資本主義雙脅下，像竄繞的病毒，蔓延很多原住民族的家庭中，而飽受流離失所生分了生命文化的信仰核心。我們也知道，愛，可以讓心強大，可惜，這不是失根的原住民族可以知道安身的命運。為了能夠安身只能看不見眼中的無奈、悲傷、生氣、不解以及疑惑，邊緣夾縫中生存。<br> <br>唯有歲月的洗禮與時機的到來，才可以認知這些神聖的經歷，都是為了能讓心中的眼睛看見，在世界的視野中用身體寫下文化衝擊及霸權下的世代創傷，並奠定覺知「人道」的價值與語言力量的推手。</p>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"col-sm-6\">\n\t\t\t\t\t\t<div class=\"divider\"></div>\n\t\t\t\t\t\t<p class=\"bottom__text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".bottom__text\">Eval Malinjinnan is a Taiwanese indigenous artist living in Australia.<br><br>During a snowy February, Eval Malinjinnan was born to the seventh child of a missing Bunun Shaman; she is a posthumous child. Even though Eval’s father passing her by, the two years in the community has embedded the divine essence in her.     <br> <br>From the remote village to the convoluted outside world of reality, she went through her step-father’s sudden stroke, depressed mother, endless house chores, abusive language among sisters and alcoholic brothers’ domestic violence, and on-going discriminatory environment, all together pushing her out of her motherland where she went into exile and learnt to speak different languages.<br> <br>Under the intrusion of colonialism along with utilitarianism and capitalism, this kind of scenario is a contagious plague pervading in the most Indigenous families. That they have been remorseful for the disconnection of their motherland and their core beliefs. Love can strengthen hearts, however for the uprooted and colonized peoples, to get fed is the priority. We need to prevail against helpless, rage, sorrow, uneasiness and doubt to survive in the edge of oblivion.   <br> <br>Luckily time can appease a traumatic past. Leading to the realization of seeing all predicaments as a sacred path by the mental eye, to articulate the mutual intergenerational trauma across the globe caused by cultural hegemony in the language within physical experiences. In addition to be aware of the value of humanity and the power of language. Accordingly, returning to the once discarded matrix is the only way to comprehend the meaning of life.<br><br></p>\n\t\t\t\t\t</div>\n\n\t\t\t\t</div>\n\t\t\t\t<div class=\"mbr-section-btn\" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showButtons\"><a class=\"btn btn-black\" href=\"page6.html#features010-40\" data-app-placeholder=\"Type Text\">作品</a></div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
           "_cid": "syPhOOUk09",
           "_protectedParams": [],
           "_global": false,
@@ -11387,7 +11655,7 @@
           },
           "_name": "content2",
           "_sourceTheme": "conferencem4",
-          "_customHTML": "<section class=\"content2 conferencem4_content2\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"8\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n\t\t<input type=\"checkbox\" title=\"Left/Right Content\" name=\"reverse\" checked>\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n\t\t<input type=\"checkbox\" title=\"Columns\" name=\"showBottomText\" checked>\n\t\t<input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n\t\t<input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#191f23\" condition=\"showBottomText\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"../_images/conference28_1920.jpg\">\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#149dcc\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n\t</div>\n\n\t<div class=\"container\">\n\t\t<div class=\"row justify-content-center align-items-center\" mbr-class=\"{'flex-row-reverse' : reverse}\">\n\t\t\t<div class=\"col-lg-5 col-sm-7\">\n\t\t\t\t<div class=\"mbr-figure\">\n\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/20190322-152706-275x334.jpg\" alt title>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"col-lg-1 d-none d-lg-block\"></div>\n\t\t\t<div class=\"col-lg-6 title__block\">\n\t\t\t\t<h3 class=\"mbr-section-subtitle mbr-semibold mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"><div>1992</div></h3>\n\t\t\t\t<h2 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>書巴里.以使馬哈善</b><div><b>Subali Ismahasan</b></div></h2>\n\t\t\t\t<p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">書巴里‧以使馬哈善（Subali Ismahasan），現年27歲，出生於台灣高雄南沙魯部落的布農族。</p>\n\t\t\t\t<div class=\"row\" mbr-if=\"showBottomText\">\n\t\t\t\t\t<div class=\"col-sm-6\">\n\t\t\t\t\t\t<div class=\"divider\"></div>\n\t\t\t\t\t\t<p class=\"bottom__text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".bottom__text\">2009年發生的莫拉克風災，奪走了他的父親和親友，沖刷掉了半個部落，幾乎改變了部落的生態和人文，當時18歲書巴里，看盡了大人們爭奪資源的醜陋面貌，也理解到人們為了家庭，能夠無私奉獻。一個人，不可能永遠醜陋，總會有美麗的時候；一個人不可能永遠悲痛，總會有微笑的時刻。在反覆的思考過程中，書巴里也曾有過自殺的念頭，但唯一放不下的只有家人，在這之後他所理解到的，就是這世界是由愛所充滿的，是唯一超脫時間、空間所框架住的東西，由愛而生的所有東西都是美好的，但由愛而生的代價卻不一定都是值得的。<br> <br>書巴里認為，不論用什麼樣的方式過生活，「沒有任何事比快樂更重要」，人活著只需銘記這件事，就能感受真實地活著的感覺，而書巴里也希望藉由作品能夠一點點地將此一理念，傳達給願意接受快樂的人們。<br> <br>透過精緻而細膩的創作，書巴里將自己生命的傷痛、情感以及體悟，化為一株一株的點塊，創造驚人的視覺張力，把自身療癒的過程與成長的能量，轉化成令人睛豔的視覺符碼，讓自己快樂，也傳達快樂。<br></p>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"col-sm-6\">\n\t\t\t\t\t\t<div class=\"divider\"></div>\n\t\t\t\t\t\t<p class=\"bottom__text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".bottom__text\">Subali Ismahasan, 27, was born to the Bunun Nation in Nansharu community, Kaohsiung Taiwan.<br> <br>In 2009, the devastating typhoon Morakot not only has taken Subali’s father and relatives, it also has swept off most of the community and dramatically changed the local eco-system and life style. At the age of 18, Subali has witnessed the grownups grappling with resources and grimacing in pain; on the other hand, he has also come to realize that one would sacrifice for family unconditionally. Each one has his or her moment; likewise, one cannot always lament. On his enlightening journey, if not were the consideration of his family, he would have taken his own life; he also grew insight to see the world is replenished with love; it is beyond time-space. Whatever comes from love is splendid; yet, at a price that may not always be worthy. <br> <br>Subali believes that by all means as long as one remains happy, it is the essential meaning of being alive. Hence, through Subali’s artworks, he hopes to deliver the notion of a happy life to those open-minded and who are willing to embrace happiness.<br> <br>The quality of exquisiteness in Subali’s work seems to transform his trauma, sentiment and enlightenment into cluster of dots creating a visionary sensation; to turn the dynamic of the healing process into an insightful code of happiness for everyone.<br><br></p>\n\t\t\t\t\t</div>\n\n\t\t\t\t</div>\n\t\t\t\t<div class=\"mbr-section-btn\" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showButtons\"><a class=\"btn btn-black\" href=\"page11.html#features010-52\" data-app-placeholder=\"Type Text\">作品</a></div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_customHTML": "<section class=\"content2 conferencem4_content2\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"8\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n\t\t<input type=\"checkbox\" title=\"Left/Right Content\" name=\"reverse\" checked>\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n\t\t<input type=\"checkbox\" title=\"Columns\" name=\"showBottomText\" checked>\n\t\t<input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n\t\t<input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#191f23\" condition=\"showBottomText\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"../_images/conference28_1920.jpg\">\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#149dcc\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n\t</div>\n\n\t<div class=\"container\">\n\t\t<div class=\"row justify-content-center align-items-center\" mbr-class=\"{'flex-row-reverse' : reverse}\">\n\t\t\t<div class=\"col-lg-5 col-sm-7\">\n\t\t\t\t<div class=\"mbr-figure\">\n\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/20190322-152706-275x334.jpg\" alt title>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"col-lg-1 d-none d-lg-block\"></div>\n\t\t\t<div class=\"col-lg-6 title__block\">\n\t\t\t\t<h3 class=\"mbr-section-subtitle mbr-semibold mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"><div>1992</div></h3>\n\t\t\t\t<h2 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>書巴里.以使馬哈善</b><div><b>Subali Ismahasan</b></div></h2>\n\t\t\t\t<p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">書巴里‧以使馬哈善（Subali Ismahasan），現年27歲，出生於台灣高雄南沙魯部落的布農族。</p>\n\t\t\t\t<div class=\"row\" mbr-if=\"showBottomText\">\n\t\t\t\t\t<div class=\"col-sm-6\">\n\t\t\t\t\t\t<div class=\"divider\"></div>\n\t\t\t\t\t\t<p class=\"bottom__text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".bottom__text\">2009年發生的莫拉克風災，奪走了他的父親和親友，沖刷掉了半個部落，幾乎改變了部落的生態和人文，當時18歲書巴里，看盡了大人們爭奪資源的醜陋面貌，也理解到人們為了家庭，能夠無私奉獻。一個人，不可能永遠醜陋，總會有美麗的時候；一個人不可能永遠悲痛，總會有微笑的時刻。在反覆的思考過程中，書巴里也曾有過自殺的念頭，但唯一放不下的只有家人，在這之後他所理解到的，就是這世界是由愛所充滿的，是唯一超脫時間、空間所框架住的東西，由愛而生的所有東西都是美好的，但由愛而生的代價卻不一定都是值得的。<br> <br>書巴里認為，不論用什麼樣的方式過生活，「沒有任何事比快樂更重要」，人活著只需銘記這件事，就能感受真實地活著的感覺，而書巴里也希望藉由作品能夠一點點地將此一理念，傳達給願意接受快樂的人們。<br> <br>透過精緻而細膩的創作，書巴里將自己生命的傷痛、情感以及體悟，化為一株一株的點塊，創造驚人的視覺張力，把自身療癒的過程與成長的能量，轉化成令人睛豔的視覺符碼，讓自己快樂，也傳達快樂。<br></p>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"col-sm-6\">\n\t\t\t\t\t\t<div class=\"divider\"></div>\n\t\t\t\t\t\t<p class=\"bottom__text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".bottom__text\">Subali Ismahasan, 27, was born to the Bunun Nation in Nansharu community, Kaohsiung Taiwan.<br> <br>In 2009, the devastating typhoon Morakot not only has taken Subali’s father and relatives, it also has swept off most of the community and dramatically changed the local eco-system and life style. At the age of 18, Subali has witnessed the grownups grappling with resources and grimacing in pain; on the other hand, he has also come to realize that one would sacrifice for family unconditionally. Each one has his or her moment; likewise, one cannot always lament. On his enlightening journey, if not were the consideration of his family, he would have taken his own life; he also grew insight to see the world is replenished with love; it is beyond time-space. Whatever comes from love is splendid; yet, at a price that may not always be worthy. <br> <br>Subali believes that by all means as long as one remains happy, it is the essential meaning of being alive. Hence, through Subali’s artworks, he hopes to deliver the notion of a happy life to those open-minded and who are willing to embrace happiness.<br> <br>The quality of exquisiteness in Subali’s work seems to transform his trauma, sentiment and enlightenment into cluster of dots creating a visionary sensation; to turn the dynamic of the healing process into an insightful code of happiness for everyone.<br><br></p>\n\t\t\t\t\t</div>\n\n\t\t\t\t</div>\n\t\t\t\t<div class=\"mbr-section-btn\" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showButtons\"><a class=\"btn btn-black\" href=\"page11.html#gallery1-5e\" data-app-placeholder=\"Type Text\">作品</a></div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
           "_cid": "syPhS7yTbF",
           "_protectedParams": [],
           "_global": false,
@@ -11461,126 +11729,234 @@
           "_anchor": "features11-4q"
         },
         {
-          "_name": "features010",
-          "_sourceTheme": "artm4",
+          "_name": "gallery1",
+          "_sourceTheme": "conferencem4",
           "_styles": {
             "padding-top": "(@paddingTop * 1rem)",
             "padding-bottom": "(@paddingBottom * 1rem)",
-            "& when (@bg-type = \"color\")": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = \"image\")": {
-              "background-image": "url(@bg-value)",
-              "& when (@overlay)": {
-                ".mbr-overlay": {
-                  "background": "@overlayColor",
-                  "opacity": "@overlayOpacity"
-                }
-              }
-            },
-            "@media (min-width: 1400px)": {
-              ".container-fluid .row": {
-                "justify-content": "flex-end",
-                "padding-right": "2rem"
-              },
-              ".col-lg-3": {
-                "max-width": "330px"
-              }
-            },
-            "img": {
-              "object-fit": "cover",
-              "transition": "all 0.3s",
-              "max-height": "100%"
-            },
-            ".item-img": {
-              "background": "@imgHover",
-              "padding": "0.7rem",
-              "&:hover": {
-                "padding": "0"
-              }
-            },
-            ".container": {
-              "max-width": "1400px"
-            },
-            "img, .item-img": {
-              "transition": "all 0.3s",
-              "width": "100%",
-              "position": "relative",
-              "& when (@autoSize)": {
-                "height": "100%",
-                "object-fit": "cover",
-                "& when (@showCardTitle)": {
-                  "height": "(@imageHeight * 100px)",
-                  "object-fit": "cover"
-                },
-                "& when (@showCardSubtitle)": {
-                  "height": "(@imageHeight * 100px)",
-                  "object-fit": "cover"
-                },
-                "& when (@showText)": {
-                  "height": "(@imageHeight * 100px)",
-                  "object-fit": "cover"
-                },
-                "& when (@showButtons)": {
-                  "height": "(@imageHeight * 100px)",
-                  "object-fit": "cover"
-                }
-              }
-            },
-            ".item:focus, span:focus": {
-              "outline": "none"
-            },
-            ".item": {
-              "cursor": "pointer",
-              "margin-bottom": "2rem"
-            },
-            "& when not (@spacing)": {
-              ".row": {
-                "margin-left": "0",
-                "margin-right": "0"
-              },
-              ".item": {
-                "padding": "0",
-                "margin": "0"
-              }
-            },
-            ".item-wrapper": {
-              "position": "relative",
-              "height": "100%",
-              "display": "flex",
-              "flex-flow": "column nowrap"
-            },
-            ".item-content": {
-              "padding-top": "1.5rem"
-            },
-            ".mbr-section-btn": {
-              "margin-top": "auto !important"
-            },
+            "background-color": "@bgColor",
+            "overflow": "hidden",
+            "box-sizing": "border-box",
             ".mbr-section-title": {
-              "color": "#232323",
-              "text-align": "center"
-            },
-            ".mbr-text, .mbr-section-btn": {
-              "color": "#818181",
+              "margin-bottom": "25px",
               "text-align": "left"
             },
-            ".item-title": {
-              "text-align": "left"
+            ".mbr-section-subtitle": {
+              "margin-bottom": "88px",
+              "font-weight": "400"
             },
-            ".item-subtitle": {
-              "text-align": "left"
+            ".image": {
+              "position": "relative",
+              "z-index": "0",
+              "top": "-50px",
+              "img": {
+                "z-index": "-1",
+                "width": "100%",
+                "max-height": "410px",
+                "object-fit": "cover"
+              }
+            },
+            ".mbr-gallery-filter": {
+              "text-align": "left",
+              "padding": "0 20px",
+              "border-bottom": "1px solid @borderColor",
+              ".btn": {
+                "padding": "0 20px 40px",
+                "margin": "0",
+                "margin-right": "35px",
+                "color": "@tagsColor !important",
+                "font-weight": "700",
+                "text-align": "left",
+                "background": "transparent !important",
+                "position": "relative",
+                "border": "none",
+                "min-width": "auto",
+                "width": "auto"
+              },
+              "ul": {
+                "display": "block",
+                "li": {
+                  "position": "relative",
+                  "padding": "0"
+                }
+              },
+              "li:not(.active) .btn.active:after, li.active .btn:not(.active):after, .mbr-gallery-filter .btn:hover:after": {
+                "content": "\"\"",
+                "position": "absolute",
+                "left": "0",
+                "right": "auto",
+                "width": "100%",
+                "bottom": "0",
+                "height": "11px",
+                "background-color": "@activeTabColor",
+                "transition": "all 0.3s ease"
+              }
+            },
+            ".mbr-gallery-row": {
+              "margin-top": "50px"
+            },
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem",
+              "border-radius": "4px"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem",
+              "border-radius": "4px"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "opacity": "0",
+              "transition": "0.2s opacity ease-in-out",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              }
+            },
+            ".mbr-gallery-item > div:hover::before": {
+              "opacity": "@overlayOpacity !important"
+            },
+            ".mbr-gallery-title": {
+              "transition": "all .3s",
+              "position": "absolute",
+              "display": "block",
+              "font-weight": "700",
+              "width": "100%",
+              "bottom": "30px",
+              "left": "0",
+              "text-align": "center",
+              "padding": "0 1rem",
+              "color": "#fff",
+              "background": "transparent"
+            },
+            "& when (@showIcon)": {
+              ".icon-focus": {
+                "transition": "all .3s",
+                "top": "30%",
+                "width": "48px",
+                "height": "48px",
+                "transform": "translateY(-30%)"
+              }
+            },
+            "& when not (@showIcon)": {
+              ".icon-focus": {
+                "display": "none"
+              }
+            },
+            ".mbr-gallery-item": {
+              "> div img, div:before": {
+                "border-radius": "4px",
+                "height": "255px"
+              },
+              "> div": {
+                "transition": "all .3s",
+                "border-radius": "4px"
+              },
+              "&:hover": {
+                "> div": {
+                  "transform": "scale(0.95)"
+                }
+              }
+            },
+            ".carousel-control-prev": {
+              ".mbri-left:before": {
+                "content": "\"\\e90a\""
+              }
+            },
+            ".carousel-control-next": {
+              ".mbri-right:before": {
+                "content": "\"\\e909\""
+              }
+            },
+            ".modal-body a.close": {
+              "border-radius": "0",
+              "font-size": "32px",
+              "top": "0",
+              "right": "0",
+              "height": "70px",
+              "width": "70px",
+              "line-height": "70px"
+            },
+            "@media (max-width: 991px)": {
+              ".mbr-section-subtitle": {
+                "margin-bottom": "20px",
+                "text-align": "center"
+              },
+              ".mbr-section-title": {
+                "text-align": "center"
+              },
+              ".image": {
+                "top": "auto",
+                "height": "420px"
+              },
+              ".mbr-gallery-filter": {
+                ".btn": {
+                  "padding": "0 0 22px"
+                },
+                "ul li": {
+                  "margin-bottom": "10px"
+                }
+              },
+              ".mbr-gallery-item": {
+                "> div img, div:before": {
+                  "height": "auto",
+                  "border-radius": "3px"
+                },
+                "> div": {
+                  "border-radius": "3px"
+                }
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".image": {
+                "height": "290px"
+              }
             }
           },
-          "_customHTML": "<section class=\"features10\" group=\"Features\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <select title=\"Columns\" name=\"cardsWidth\">\n            <option value=\"12\" selected>1</option>\n            <option value=\"6\">2</option>\n            <option value=\"4\">3</option>\n            <option value=\"3\">4</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" name=\"showTitle\" title=\"Title\" checked>\n        <input type=\"checkbox\" name=\"showSubtitle\" title=\"Subtitle\">\n        <header>Cards</header>\n        <input type=\"checkbox\" name=\"autoSize\" title=\"Auto Size\" checked>\n        <input type=\"range\" name=\"imageHeight\" title=\"Height\" min=\"1\" max=\"5\" step=\"1\" value=\"5\" condition=\"autoSize && !(showButtons==false && showCardSubtitle==false && showCardTitle==false && showText==false)\">\n        <input type=\"checkbox\" title=\"Spacing\" name=\"spacing\" checked>\n        <input type=\"checkbox\" name=\"showCardTitle\" title=\"Title\">\n        <input type=\"checkbox\" name=\"showCardSubtitle\" title=\"Subtitle\" checked>\n        <input type=\"checkbox\" name=\"showText\" title=\"Text\" checked>\n        <input type=\"checkbox\" name=\"showButtons\" title=\"Buttons\">\n        <input type=\"color\" title=\"Image Border\" name=\"imgHover\" value=\"#ebeaed\" selected>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" required>\n            <input type=\"image\" title=\"Image\" value>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#fafafa\" condition=\"overlay && bg.type == 'image'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.1\" condition=\"overlay && bg.type == 'image'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\">\n            <h4 class=\"mbr-section-title mbr-fonts-style align-left mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">作品</h4>\n            <h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Images with Title and Text</h5>\n        </div>\n        <div class=\"row mt-4\">\n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}} active\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/20160503-131146-910x1154.jpg\" alt data-slide-to=\"0\">\n                    </div>\n                    <div class=\"item-content align-left\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">百年好合</h6>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text, .mbr-section-btn\">30x20cm，2 pieces<br>伊誕巴瓦瓦隆－紋砌刻畫<br><br></p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-4\"><a href class=\"btn btn-primary item-btn\" target=\"_blank\" data-app-placeholder=\"Type Text\">更多資訊&gt;</a></div>\n                </div>\n            </div>\n            \n            \n            \n\n\n        </div>\n    </div>\n</section>",
-          "_JSplaceholders": [],
-          "_PHPplaceholders": [],
-          "_anchor": "features010-52",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel extGallery gallery1 voyagem4_gallery1\" group=\"Sliders & Galleries\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"7\" inline>\n\t\t<input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" inline>\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n\t\t<input type=\"checkbox\" title=\"Image\" name=\"showImage\">\n\t\t<header>Filter</header>\n\t\t<input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#191f23\">\n\t\t<input type=\"color\" title=\"Active Tab Color\" name=\"activeTabColor\" value=\"#444345\">\n\t\t<input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#444345\">\n\t\t<header>Gallery</header>\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#6a696c\">\n\t\t<input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\">\n\t\t<input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#ffffff\" condition=\"gradOverlay\">\n\t\t<input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" inline>\n\t\t<input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#f5f7fd\">\n\t\t<input type=\"checkbox\" title=\"Show Icon\" name=\"showIcon\">\n\t\t<input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"container\" mbr-if=\"showTitle || showSubtitle || showImage\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col-12\" mbr-class=\"{'col-lg-5' : showImage, 'col-lg-12' : !showImage}\">\n\t\t\t\t<h3 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">作品</h3>\n\t\t\t\t<h4 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSubtitle\">TICA台北原住民當代藝術中心於2016年初，由誠美社會企業贊助成立，旨在提供原住民藝術創作者一個都會型的當代專業畫廊展覽空間，藉由專業論述方式，讓原住民藝術家有更自主性的表述空間。未來將致力於協助整合全省原住民藝術工作者，提供專業視覺藝術產業相關產業知識行銷等育成方面的教育課程、工作坊。</h4>\n\t\t\t</div>\n\t\t\t<div class=\"col-lg-7 col-12\" mbr-if=\"showImage\">\n\t\t\t\t<div class=\"image\">\n\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/7f-2-1270x952.jpg\" alt title>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t<div class=\"gallery__wrap container\">\n\t\t<div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"3\" mbr-gallery-show-text></div>\n\t</div>\n</section>",
+          "_anchor": "gallery1-5e",
           "_isUserblock": true,
-          "_cid": "syPl5EQ695",
-          "_protectedParams": [],
+          "_cid": "syPti1vZu3",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {
+            "text_all": "全部",
+            "gallery__filtersTextStyle": "display-4",
+            "gallery__filtersBtnStyle": "btn-black",
+            "gallery": [
+              {
+                "tags": "空總社會創新實驗中心",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/20160503-131146-910x1154.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20160503-131146-910x1154-800x1015.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-4",
+                "caption": "你活該<br>117x91cm<br>全部<br>",
+                "active": true
+              }
+            ]
+          }
         },
         {
           "_name": "content11",
@@ -12213,7 +12589,7 @@
           },
           "_name": "content2",
           "_sourceTheme": "conferencem4",
-          "_customHTML": "<section class=\"content2 conferencem4_content2\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"8\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n\t\t<input type=\"checkbox\" title=\"Left/Right Content\" name=\"reverse\" checked>\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n\t\t<input type=\"checkbox\" title=\"Columns\" name=\"showBottomText\" checked>\n\t\t<input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n\t\t<input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#191f23\" condition=\"showBottomText\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"../_images/conference28_1920.jpg\">\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#149dcc\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n\t</div>\n\n\t<div class=\"container\">\n\t\t<div class=\"row justify-content-center align-items-center\" mbr-class=\"{'flex-row-reverse' : reverse}\">\n\t\t\t<div class=\"col-lg-5 col-sm-7\">\n\t\t\t\t<div class=\"mbr-figure\">\n\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/20160714-123225-275x334.jpg\" alt title>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"col-lg-1 d-none d-lg-block\"></div>\n\t\t\t<div class=\"col-lg-6 title__block\">\n\t\t\t\t<h3 class=\"mbr-section-subtitle mbr-semibold mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">-</h3>\n\t\t\t\t<h2 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>優席夫</b><div><b>Yosifu</b></div></h2>\n\t\t\t\t<p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">優席夫 阿美族血統，出生於花蓮玉里的原住民部落〜馬泰林村，目前定居於英國藝術之都〜愛丁堡。已有多年在當地知名國際藝術節參展的資歷，是目前少數在歐洲以原住民為主題推動台灣文化，並成功發展的原住民藝術家。</p>\n\t\t\t\t<div class=\"row\" mbr-if=\"showBottomText\">\n\t\t\t\t\t<div class=\"col-sm-6\">\n\t\t\t\t\t\t<div class=\"divider\"></div>\n\t\t\t\t\t\t<p class=\"bottom__text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".bottom__text\">優席夫 阿美族血統,出生於花蓮玉里的原住民部落〜馬泰林村，目前定居於英國藝術之都〜愛丁堡。已有多年在當地知名國際藝術節參展的資歷，是目前少數在歐洲以原住民為主題推動台灣文化，並成功發展的原住民藝術家。<br><br>優席夫的創作非常多元，從音樂、攝影一直延伸到繪畫。其作品以用色大膽、主題活潑鮮明為特色，他專注在用色強烈且具戲劇張力的效果上創作，通常在簡單的視覺上，往往還透露了對人性與社會議題的見解，尤其巧妙的運用了東西方元素的特質，作品深受歐亞人士的喜愛。目前收購他畫作的收藏家已遍及了巴西、澳洲、香港、英國、西班牙、加拿大、台灣、新加坡、法國、韓國、瑞典等地。<br><br>優席夫是台北國際藝術博覽會受邀參展之藝術家，同時也是桃園國際機場展之受邀者，他致力用藝術推廣美學教育，曾受知名企業人士嚴長壽先生之邀約，擔任偏鄉藝術夏令營的啟發任務，他連續兩度受邀在TEDx Taipei 演講，並在許多校園教導創作與啟發年輕人，推廣藝術與文化不遺餘力，使大眾能更深的了解台灣原住民，近期創作活動包括 （唱片封面、電影宣傳主視覺創作，與跨界時尚合作優席夫潮T之設計），同時作品也受台灣萊雅時尚品牌合作邀請，在杜拜發表國際髪藝走秀的主視覺牆上。<br></p>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"col-sm-6\">\n\t\t\t\t\t\t<div class=\"divider\"></div>\n\t\t\t\t\t\t<p class=\"bottom__text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".bottom__text\">Yosifu was born in the village of Matailing, Taiwan and belongs to the Amis tribe of indigenous people found in the east of the island.  He now lives and works main in Edinburgh in Scotland, and has exhibited successfully in both Europe and Asia.  He is one of only a very few artists promoting Taiwan indigenous culture in Europe.<br><br>Yosifu's varied creative talents encompass music, photography and painting.  His bright vibrant style has its roots in indigenous and naive forms of artwork and is a fusion of Western and Asian styles and techniques.  He focuses on the strong use of colours to dramatic effect, with a simple facade often hiding more serious observations or social commentary. His work has become popular internationally, and is currently held by private collectors from Scotland, England, Australia, Brazil, Canada, Hong Kong, Singapore, Taiwan and Sweden.<br><br>Yosifu has been an invited artist to exhibit at Art Taipei International Art Fair, as well as at Taipei International Airport.  He is deeply committed to using art as an educational tool, and has been invited to teach at the prestigious Stanley Yen Cultural Foundation Art Summer School and twice to speak at TEDx Taipei.  He has held workshops and lectures at several schools and universities to inspire the younger generations, and to promote art and the culture and increase awareness and understanding of the indigenous tribes of Taiwan.  Recent projects include commissioned artwork for an album cover, the creation of the main image for a movie poster, a collaboration with designers for a special line of Yosifu clothing featuring his artwork, and providing the stage backdrop for the L'Oréal hair show in Dubai.</p>\n\t\t\t\t\t</div>\n\n\t\t\t\t</div>\n\t\t\t\t<div class=\"mbr-section-btn\" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showButtons\"><a class=\"btn btn-black\" href=\"page6.html#features010-40\" data-app-placeholder=\"Type Text\">作品</a></div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_customHTML": "<section class=\"content2 conferencem4_content2\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"8\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n\t\t<input type=\"checkbox\" title=\"Left/Right Content\" name=\"reverse\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n\t\t<input type=\"checkbox\" title=\"Columns\" name=\"showBottomText\" checked>\n\t\t<input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n\t\t<input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#191f23\" condition=\"showBottomText\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"../_images/conference28_1920.jpg\">\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#149dcc\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n\t</div>\n\n\t<div class=\"container\">\n\t\t<div class=\"row justify-content-center align-items-center\" mbr-class=\"{'flex-row-reverse' : reverse}\">\n\t\t\t<div class=\"col-lg-5 col-sm-7\">\n\t\t\t\t<div class=\"mbr-figure\">\n\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/20160714-123225-275x334.jpg\" alt title>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"col-lg-1 d-none d-lg-block\"></div>\n\t\t\t<div class=\"col-lg-6 title__block\">\n\t\t\t\t<h3 class=\"mbr-section-subtitle mbr-semibold mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">-</h3>\n\t\t\t\t<h2 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>優席夫</b><div><b>Yosifu</b></div></h2>\n\t\t\t\t<p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">優席夫 阿美族血統，出生於花蓮玉里的原住民部落〜馬泰林村，目前定居於英國藝術之都〜愛丁堡。已有多年在當地知名國際藝術節參展的資歷，是目前少數在歐洲以原住民為主題推動台灣文化，並成功發展的原住民藝術家。</p>\n\t\t\t\t<div class=\"row\" mbr-if=\"showBottomText\">\n\t\t\t\t\t<div class=\"col-sm-6\">\n\t\t\t\t\t\t<div class=\"divider\"></div>\n\t\t\t\t\t\t<p class=\"bottom__text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".bottom__text\">優席夫 阿美族血統,出生於花蓮玉里的原住民部落〜馬泰林村，目前定居於英國藝術之都〜愛丁堡。已有多年在當地知名國際藝術節參展的資歷，是目前少數在歐洲以原住民為主題推動台灣文化，並成功發展的原住民藝術家。<br><br>優席夫的創作非常多元，從音樂、攝影一直延伸到繪畫。其作品以用色大膽、主題活潑鮮明為特色，他專注在用色強烈且具戲劇張力的效果上創作，通常在簡單的視覺上，往往還透露了對人性與社會議題的見解，尤其巧妙的運用了東西方元素的特質，作品深受歐亞人士的喜愛。目前收購他畫作的收藏家已遍及了巴西、澳洲、香港、英國、西班牙、加拿大、台灣、新加坡、法國、韓國、瑞典等地。<br><br>優席夫是台北國際藝術博覽會受邀參展之藝術家，同時也是桃園國際機場展之受邀者，他致力用藝術推廣美學教育，曾受知名企業人士嚴長壽先生之邀約，擔任偏鄉藝術夏令營的啟發任務，他連續兩度受邀在TEDx Taipei 演講，並在許多校園教導創作與啟發年輕人，推廣藝術與文化不遺餘力，使大眾能更深的了解台灣原住民，近期創作活動包括 （唱片封面、電影宣傳主視覺創作，與跨界時尚合作優席夫潮T之設計），同時作品也受台灣萊雅時尚品牌合作邀請，在杜拜發表國際髪藝走秀的主視覺牆上。<br></p>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"col-sm-6\">\n\t\t\t\t\t\t<div class=\"divider\"></div>\n\t\t\t\t\t\t<p class=\"bottom__text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".bottom__text\">Yosifu was born in the village of Matailing, Taiwan and belongs to the Amis tribe of indigenous people found in the east of the island.  He now lives and works main in Edinburgh in Scotland, and has exhibited successfully in both Europe and Asia.  He is one of only a very few artists promoting Taiwan indigenous culture in Europe.<br><br>Yosifu's varied creative talents encompass music, photography and painting.  His bright vibrant style has its roots in indigenous and naive forms of artwork and is a fusion of Western and Asian styles and techniques.  He focuses on the strong use of colours to dramatic effect, with a simple facade often hiding more serious observations or social commentary. His work has become popular internationally, and is currently held by private collectors from Scotland, England, Australia, Brazil, Canada, Hong Kong, Singapore, Taiwan and Sweden.<br><br>Yosifu has been an invited artist to exhibit at Art Taipei International Art Fair, as well as at Taipei International Airport.  He is deeply committed to using art as an educational tool, and has been invited to teach at the prestigious Stanley Yen Cultural Foundation Art Summer School and twice to speak at TEDx Taipei.  He has held workshops and lectures at several schools and universities to inspire the younger generations, and to promote art and the culture and increase awareness and understanding of the indigenous tribes of Taiwan.  Recent projects include commissioned artwork for an album cover, the creation of the main image for a movie poster, a collaboration with designers for a special line of Yosifu clothing featuring his artwork, and providing the stage backdrop for the L'Oréal hair show in Dubai.</p>\n\t\t\t\t\t</div>\n\n\t\t\t\t</div>\n\t\t\t\t<div class=\"mbr-section-btn\" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showButtons\"><a class=\"btn btn-black\" href=\"page6.html#features010-40\" data-app-placeholder=\"Type Text\">作品</a></div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
           "_cid": "syPhXVsPxH",
           "_protectedParams": [],
           "_global": false,
@@ -12278,7 +12654,7 @@
           },
           "_name": "features11",
           "_sourceTheme": "conferencem4",
-          "_customHTML": "<section class=\"features11 conferencem4_features11\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcon\">\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"range\" inline title=\"Card Count\" name=\"countCard\" min=\"1\" max=\"6\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Hover Card Color\" name=\"cardColor\" value=\"#ebeaed\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/conference28_1920.jpg\">\n            <input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#149dcc\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row\" mbr-list mbr-list-grow=\"countCard\">\n            <div class=\"col-lg-4 col-md-6\">\n                <div class=\"wrap\">\n                    <div class=\"icon__block\" mbr-if=\"showIcon\">\n                        <span class=\"mbr-iconfont mbrib-sites\" mbr-icon style=\"font-size: 36px;\"></span>\n                    </div>\n                    <h4 class=\"title__text mbr-bold mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-7\" data-app-selector=\".title__text, .icon__block\">2016</h4>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\">2015年12月 / MAKAPAH 藝術獎-中正紀念堂藝術聯展<br>2015 年12 月 / 「那裡有光」個展  台中基礎實驗藝文空間<br>2015 年12 月 / 花蓮文化局石雕館 - 優席夫 \"大地之愛\"個展與時尚走秀<br>2015 年11 月 / 台東國際衝浪公開賽 「藝術與運動的結合」記者會<br>2015 年11 月 / 台東生活美學館 優席夫  \" 快樂畫\" 師生聯展<br>2015 年10 月 / 台北原民風味館 - 優席夫經典版畫特展 \" 回歸自然 \"<br>2015 年6 月 / Let's Dance \"來跳舞\" 個展「優席夫新美學空間」台北金山南路<br>2015 年4 月 / 花蓮東海岸國家公園石梯灣118精品民宿，灰盒子美展<br>2015 年4 月 / 花蓮東海岸國家公園-緩慢精品民宿美展<br>2015 年4 月 / 陶甕百合的春天原民主題餐廳 ,花蓮靜浦部落美展2014 年12 月 / 受邀華山藝文中心Marula 藝術Art'ery個展<br>2014 年10 月 / Our World國際藝術家聯展  優席夫新美學空間 台北<br>2014 年9 月 /受邀華山藝文中心\" 華文朗讀節 \" 特展<br>2014 年5 月 / 受邀行政院原民會臺灣原住民族藝術展「大地的聲音」個展<br>2014 年5 月 / Blue Diamond 藍色鑽石個展  優席夫新美學空間 台北<br>2013 年8 月 / 受邀愛丁堡國際藝術節個展於 Dance Base 英國皇家舞蹈學院愛丁堡推廣分院<br>2013 年8 月 / 受邀桃園國際機場個展<br>2013 年2 月 / AHAF亞洲飯店藝術博覽會 文華 東方酒店 香港<br>2012年11月 - 受邀松菸文化園區PULIMA 藝術獎展覽<br>2012 年10 月 / 台北國際藝術博覽會 台北<br>2012 年9 月 / 台灣國際文創博覽會 台北<br>2012 年2 月 / 太平洋建設之TOD 聯合美展 台北<br>2011 年12 月 / 米靈岸神話音樂劇美展 台北華山藝文中心<br>2011 年10 月 / 「異象.藝象」青年藝術家聯展 國父紀念館  台北<br>2011 年8 月 /  誠品藝廊 台東個展<br>2010 年12 月~1011 年12 月/ 澳盛銀行台北敦南、八德路口都市美化工程戶外師生美展<br>2010 年11 月 / 愛丁堡Axolotle 藝廊聯展<br>2010 年5 月 - 倫敦 伊斯靈頓區坎帝藝廊聯展<br>2010 年 1 月- 維多利亞藝廊，愛丁堡聯展<br>2009 年8 月 / 金車(MR Brown) 文藝中心--台北館個展<br>2009 年5 月 / 北投 凱達格蘭文化館個展<br>2009 年5 月 / 台北 38 義大利高級餐廳個展<br>2009 年2 月 / 愛丁堡 重點藝術區丹達斯藝廊個展<br>2008 年11月 / 愛丁堡 拉坎堤那餐廳個展<br>2008年10 月 / 愛丁堡 馬首博波頓劇院藝廊聯展<br>2008 年 9 月 / 中印藝廊「美麗在說話」個展<br>2008 年8 月 / 愛丁堡 悅石藝廊個展<br>2008 年3月 / 愛丁堡 麗士髮型藝術沙龍個展<br>2008 年3 月 / 愛丁堡 純萃蘇格蘭藝廊個展<br>2008 年2 月 / 愛丁堡重點藝術區 丹達斯藝廊個展<br>2007 年11 月 / 愛丁堡莎拉咖啡館 畫作兼攝影個展<br>2007 年10 月 / 愛丁堡馬戲團高級餐廳 畫作兼攝影個展<br>2007 年9 月 / 愛丁堡聖瑪莉大教堂藝廊 畫作兼攝影聯展<br>2007 年8 月 / 愛丁堡國際藝術節 卡蜜諾咖啡藝廊畫作個展<br>2007 年8 月/ 愛丁堡國際藝術節-皇家醫學院藝術聯展 <br>2006 年8 月 / 愛丁堡國際藝術節-皇家醫學院藝術聯展<br>2005 年8 月/ 愛丁堡國際藝術節海洋航廈青年聯展<br></p>\n                    <div class=\"mbr-fonts-style items\" mbr-article mbr-theme-style=\"display-4\" data-app-selector=\".items\"></div>\n                </div>\n            </div>\n\n            <div class=\"col-lg-4 col-md-6\">\n                <div class=\"wrap\">\n                    <div class=\"icon__block\" mbr-if=\"showIcon\">\n                        <span class=\"mbr-iconfont mbrib-error\" mbr-icon style=\"font-size: 36px;\"></span>\n                    </div>\n                    <h4 class=\"title__text mbr-bold mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-7\" data-app-selector=\".title__text, .icon__block\">2015</h4>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\">2015 Dec - Makapah Art Award mixed exhibition, Chiang Kai-shek Memorial Hall, Taipei<br>2015 Dec - solo exhibition \"There is Light\" of original works and prints at Basic Experimental Art Space, Taichung<br>2015 Dec - Hualien Stone Sculptural Museum  \"The Love of the Earth\" - original works by Yosifu <br>2015 Nov - \"Art &amp; Sport\" - Press Conference for opening of Taiwan international surfing competition, Taitung. Taiwan<br>2015 Nov - National Taitung Living Art Centre - Exhibition of original works by Yosifu and his students<br>2015 Oct - Taiwan Indigenous Cultural Centre - \"Return to Innocent\" - prints of classic artwork by Yosifu<br>2015 Jun - \"Let's Dance” solo exhibition at Yosifu Art Space, Taipei, Taiwan<br>2015 Apr - 118 Hotel solo exhibition, Hualien County East Coast National Park, Taiwan<br>2015 Apr - Adagio Hotel solo exhibition, Hualien County East Coast National Park, Taiwan<br>2015 Apr - \"Earthenware Pots of Lilies in the Spring\" Indigenous restaurant solo exhibition, Jin Pu Village, Hualien<br>2015 Jan - Marula Art’ery solo exhibition, Huashan Cutural Park, Taipei, Taiwan<br>2014 Oct - \"Our World” mixed exhibition showing work by invited international artists at Yosifu Art Space, Taipei<br>2014 Sep - Chinese Cultural Poetry Festival Exhibition invited artist mixed exhibition, Huashan Cultural Park, Taipei<br>2014 May - \"The Voice of the Earth” solo exhibition at Council of Indigenous Peoples gallery, Taipei<br>2014 May - \"Blue Diamond” solo exhibition at Yosifu Art Space, Taipei, Taiwan<br>2013 Aug - Dance Base solo exhibition, Grassmarket, Edinburgh, Scotland<br>2013 Aug - Tao Yuan International Airport invited artist solo exhibition, Taiwan<br>2013 Feb - Asia Hotel Art Fair (AHAF) mixed exhibition, Hong Kong <br>2012 Nov - PULIMA art award mixed exhibition, Song Yen Cultural Art Park, Taipei<br>2012 Oct - Art Taipei international art fair invited artist, World Trade Centre, Taipei<br>2012 Sep - Taiwan International Cultural and Art Product fair mixed exhibitors, Nan Gang Cultural and Art Park, Taipei  <br>2012 Feb - Sogo Building Company (TOD) mixed exhibition, Taipei<br>2011 Dec - Miling’An indigenous musical solo exhibition, Huashan Cutural Park, Taipei<br>2011 Oct - Vision young artists mixed exhibition, Sun Yat Sen Memorial Hall, Taipei<br>2011 Aug - Eslite Gallery solo exhibition, Taitung, Taiwan    <br>2010 Dec - ANZ Bank Outdoor Urban Beautification Project Exhibition, Taipei<br>2010 Nov - Axolotle Gallery mixed exhibition, Dundas Street, Edinburgh, Scotland<br>2010 May - Candid Art Gallery mixed exhibition, Islington, London, UK<br>2010 Jan - Victoria Art Gallery mixed exhibition, Victoria Street, Edinburgh Scotland<br>2009 Aug - Golden Car Company (Mr Brown) art centre solo exhibition, Taipei<br>2009 May - Ketagalan Cultural Centre solo exhibition, Beitou, Taipei, Taiwan<br>2009 May - Restaurant 38 solo exhibition, Taipei, Taiwan<br>2009 Feb - Dundas Street Gallery solo exhibition, Dundas Street, Edinburgh, Scotland<br>2008 Nov - La Cantina Restaurant solo exhibition, Leith, Edinburgh, Scotland<br>2008 Oct - Broughton Gallery mixed exhibition, Musselburgh, Scotland<br>2008 Sep - Jong-In Art Gallery, An-Ho Road, Taipei, Taiwan<br>2008 Aug - Gladstone Gallery, Lawnmarket, Edinburgh, Scotland<br>2008 Mar - Luxus Hair Salon solo exhibition, Edinburgh, Scotland<br>2008 Mar - Just Scottish Gallery mixed exhibition, The Mound, Edinburgh, Scotland<br>2008 Feb - Dundas Street Gallery solo exhibition, Dundas Street, Edinburgh, Scotland<br>2007 Nov - Cafe Sala solo exhibition, Broughton Street, Edinburgh, Scotland<br>2007 Oct - Circus restaurant solo exhibition, Castle Street, Edinburgh, Scotland<br>2007 Sep - St Mary’s Cathedral gallery mixed exhibition, Leith Walk, Edinburgh, Scotland<br>2007 Aug - Cafe Camino solo exhibition, Little Leith Street, Edinburgh, Scotland<br>2007 Aug - Accessible Art mixed exhibition, Royal College of Physicians, Edinburgh, Scotland<br>2006 Aug - Accessible Art mixed exhibition, Royal College of Physicians, Edinburgh, Scotland<br>2005 Aug - Absolute Art, Ocean Terminal, Edinburgh, Scotland</p>\n                    <div class=\"mbr-fonts-style items\" mbr-article mbr-theme-style=\"display-4\" data-app-selector=\".items\"></div>\n                </div>\n            </div>\n\n            \n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"features11 conferencem4_features11\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcon\">\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"range\" inline title=\"Card Count\" name=\"countCard\" min=\"1\" max=\"6\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Hover Card Color\" name=\"cardColor\" value=\"#ebeaed\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/conference28_1920.jpg\">\n            <input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#149dcc\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row\" mbr-list mbr-list-grow=\"countCard\">\n            <div class=\"col-lg-4 col-md-6\">\n                <div class=\"wrap\">\n                    <div class=\"icon__block\" mbr-if=\"showIcon\">\n                        <span class=\"mbr-iconfont mbrib-sites\" mbr-icon style=\"font-size: 36px;\"></span>\n                    </div>\n                    <h4 class=\"title__text mbr-bold mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-7\" data-app-selector=\".title__text, .icon__block\">2016</h4>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\">2015年12月 MAKAPAH 藝術獎中正紀念堂藝術聯展<br>2015 年12月那裡有光-個展台中基礎實驗藝文空間<br>2015 年12月花蓮文化局石雕館 - 優席夫 \"大地之愛\"個展與時尚走秀<br>2015 年11月 台東國際衝浪公開賽-藝術與運動的結合-記者會<br>2015 年11月台東生活美學館優席夫快樂畫-師生聯展<br>2015 年10月台北原民風味館 - 優席夫經典版畫特展 回歸自然&nbsp;<br>2015 年6月 Let's Dance \"來跳舞\" 個展「優席夫新美學空間」台北金山南路<br>2015 年4月 花蓮東海岸國家公園石梯灣118精品民宿，灰盒子美展<br>2015 年4月花蓮東海岸國家公園-緩慢精品民宿美展<br>2015 年4 月&nbsp; 陶甕百合的春天原民主題餐廳 ,花蓮靜浦部落美展2014 年12 月 / 受邀華山藝文中心Marula 藝術Art'ery個展<br>2014 年10 月 / Our World國際藝術家聯展  優席夫新美學空間 台北<br>2014 年9 月 /受邀華山藝文中心\" 華文朗讀節 \" 特展<br>2014 年5 月 / 受邀行政院原民會臺灣原住民族藝術展「大地的聲音」個展<br>2014 年5 月 / Blue Diamond 藍色鑽石個展  優席夫新美學空間 台北<br>2013 年8 月 / 受邀愛丁堡國際藝術節個展於 Dance Base 英國皇家舞蹈學院愛丁堡推廣分院<br>2013 年8 月 / 受邀桃園國際機場個展<br>2013 年2 月 / AHAF亞洲飯店藝術博覽會 文華 東方酒店 香港<br>2012年11月 - 受邀松菸文化園區PULIMA 藝術獎展覽<br>2012 年10 月 / 台北國際藝術博覽會 台北<br>2012 年9 月 / 台灣國際文創博覽會 台北<br>2012 年2 月 / 太平洋建設之TOD 聯合美展 台北<br>2011 年12 月 / 米靈岸神話音樂劇美展 台北華山藝文中心<br>2011 年10 月 / 「異象.藝象」青年藝術家聯展 國父紀念館  台北<br>2011 年8 月 /  誠品藝廊 台東個展<br>2010 年12 月~1011 年12 月/ 澳盛銀行台北敦南、八德路口都市美化工程戶外師生美展<br>2010 年11 月 / 愛丁堡Axolotle 藝廊聯展<br>2010 年5 月 - 倫敦 伊斯靈頓區坎帝藝廊聯展<br>2010 年 1 月- 維多利亞藝廊，愛丁堡聯展<br>2009 年8 月 / 金車(MR Brown) 文藝中心-台北館個展<br>2009 年5 月 / 北投 凱達格蘭文化館個展<br>2009 年5 月 / 台北 38 義大利高級餐廳個展<br>2009 年2 月 / 愛丁堡 重點藝術區丹達斯藝廊個展<br>2008 年11月 / 愛丁堡 拉坎堤那餐廳個展<br>2008年10 月 / 愛丁堡 馬首博波頓劇院藝廊聯展<br>2008 年 9 月 / 中印藝廊「美麗在說話」個展<br>2008 年8 月 / 愛丁堡 悅石藝廊個展<br>2008 年3月 / 愛丁堡 麗士髮型藝術沙龍個展<br>2008 年3 月 / 愛丁堡 純萃蘇格蘭藝廊個展<br>2008 年2 月 / 愛丁堡重點藝術區 丹達斯藝廊個展<br>2007 年11 月 / 愛丁堡莎拉咖啡館 畫作兼攝影個展<br>2007 年10 月 / 愛丁堡馬戲團高級餐廳 畫作兼攝影個展<br>2007 年9 月 / 愛丁堡聖瑪莉大教堂藝廊 畫作兼攝影聯展<br>2007 年8 月 / 愛丁堡國際藝術節 卡蜜諾咖啡藝廊畫作個展<br>2007 年8 月/ 愛丁堡國際藝術節-皇家醫學院藝術聯展 <br>2006 年8 月 / 愛丁堡國際藝術節-皇家醫學院藝術聯展<br>2005 年8 月/ 愛丁堡國際藝術節海洋航廈青年聯展<br></p>\n                    <div class=\"mbr-fonts-style items\" mbr-article mbr-theme-style=\"display-4\" data-app-selector=\".items\"></div>\n                </div>\n            </div>\n\n            <div class=\"col-lg-4 col-md-6\">\n                <div class=\"wrap\">\n                    <div class=\"icon__block\" mbr-if=\"showIcon\">\n                        <span class=\"mbr-iconfont mbrib-error\" mbr-icon style=\"font-size: 36px;\"></span>\n                    </div>\n                    <h4 class=\"title__text mbr-bold mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-7\" data-app-selector=\".title__text, .icon__block\">2015</h4>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\">2015 Dec - Makapah Art Award mixed exhibition, Chiang Kai-shek Memorial Hall, Taipei<br>2015 Dec - solo exhibition \"There is Light\" of original works and prints at Basic Experimental Art Space, Taichung<br>2015 Dec - Hualien Stone Sculptural Museum  \"The Love of the Earth\" - original works by Yosifu <br>2015 Nov - \"Art &amp; Sport\" - Press Conference for opening of Taiwan international surfing competition, Taitung. Taiwan<br>2015 Nov - National Taitung Living Art Centre - Exhibition of original works by Yosifu and his students<br>2015 Oct - Taiwan Indigenous Cultural Centre - \"Return to Innocent\" - prints of classic artwork by Yosifu<br>2015 Jun - \"Let's Dance” solo exhibition at Yosifu Art Space, Taipei, Taiwan<br>2015 Apr - 118 Hotel solo exhibition, Hualien County East Coast National Park, Taiwan<br>2015 Apr - Adagio Hotel solo exhibition, Hualien County East Coast National Park, Taiwan<br>2015 Apr - \"Earthenware Pots of Lilies in the Spring\" Indigenous restaurant solo exhibition, Jin Pu Village, Hualien<br>2015 Jan - Marula Art’ery solo exhibition, Huashan Cutural Park, Taipei, Taiwan<br>2014 Oct - \"Our World” mixed exhibition showing work by invited international artists at Yosifu Art Space, Taipei<br>2014 Sep - Chinese Cultural Poetry Festival Exhibition invited artist mixed exhibition, Huashan Cultural Park, Taipei<br>2014 May - \"The Voice of the Earth” solo exhibition at Council of Indigenous Peoples gallery, Taipei<br>2014 May - \"Blue Diamond” solo exhibition at Yosifu Art Space, Taipei, Taiwan<br>2013 Aug - Dance Base solo exhibition, Grassmarket, Edinburgh, Scotland<br>2013 Aug - Tao Yuan International Airport invited artist solo exhibition, Taiwan<br>2013 Feb - Asia Hotel Art Fair (AHAF) mixed exhibition, Hong Kong <br>2012 Nov - PULIMA art award mixed exhibition, Song Yen Cultural Art Park, Taipei<br>2012 Oct - Art Taipei international art fair invited artist, World Trade Centre, Taipei<br>2012 Sep - Taiwan International Cultural and Art Product fair mixed exhibitors, Nan Gang Cultural and Art Park, Taipei  <br>2012 Feb - Sogo Building Company (TOD) mixed exhibition, Taipei<br>2011 Dec - Miling’An indigenous musical solo exhibition, Huashan Cutural Park, Taipei<br>2011 Oct - Vision young artists mixed exhibition, Sun Yat Sen Memorial Hall, Taipei<br>2011 Aug - Eslite Gallery solo exhibition, Taitung, Taiwan    <br>2010 Dec - ANZ Bank Outdoor Urban Beautification Project Exhibition, Taipei<br>2010 Nov - Axolotle Gallery mixed exhibition, Dundas Street, Edinburgh, Scotland<br>2010 May - Candid Art Gallery mixed exhibition, Islington, London, UK<br>2010 Jan - Victoria Art Gallery mixed exhibition, Victoria Street, Edinburgh Scotland<br>2009 Aug - Golden Car Company (Mr Brown) art centre solo exhibition, Taipei<br>2009 May - Ketagalan Cultural Centre solo exhibition, Beitou, Taipei, Taiwan<br>2009 May - Restaurant 38 solo exhibition, Taipei, Taiwan<br>2009 Feb - Dundas Street Gallery solo exhibition, Dundas Street, Edinburgh, Scotland<br>2008 Nov - La Cantina Restaurant solo exhibition, Leith, Edinburgh, Scotland<br>2008 Oct - Broughton Gallery mixed exhibition, Musselburgh, Scotland<br>2008 Sep - Jong-In Art Gallery, An-Ho Road, Taipei, Taiwan<br>2008 Aug - Gladstone Gallery, Lawnmarket, Edinburgh, Scotland<br>2008 Mar - Luxus Hair Salon solo exhibition, Edinburgh, Scotland<br>2008 Mar - Just Scottish Gallery mixed exhibition, The Mound, Edinburgh, Scotland<br>2008 Feb - Dundas Street Gallery solo exhibition, Dundas Street, Edinburgh, Scotland<br>2007 Nov - Cafe Sala solo exhibition, Broughton Street, Edinburgh, Scotland<br>2007 Oct - Circus restaurant solo exhibition, Castle Street, Edinburgh, Scotland<br>2007 Sep - St Mary’s Cathedral gallery mixed exhibition, Leith Walk, Edinburgh, Scotland<br>2007 Aug - Cafe Camino solo exhibition, Little Leith Street, Edinburgh, Scotland<br>2007 Aug - Accessible Art mixed exhibition, Royal College of Physicians, Edinburgh, Scotland<br>2006 Aug - Accessible Art mixed exhibition, Royal College of Physicians, Edinburgh, Scotland<br>2005 Aug - Absolute Art, Ocean Terminal, Edinburgh, Scotland</p>\n                    <div class=\"mbr-fonts-style items\" mbr-article mbr-theme-style=\"display-4\" data-app-selector=\".items\"></div>\n                </div>\n            </div>\n\n            \n        </div>\n    </div>\n</section>",
           "_cid": "syPhXVJeaN",
           "_protectedParams": [],
           "_global": false,
